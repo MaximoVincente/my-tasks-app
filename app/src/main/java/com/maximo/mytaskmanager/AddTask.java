@@ -17,7 +17,6 @@ public class AddTask extends AppCompatActivity {
         Button submitTaskButton = AddTask.this.findViewById(R.id.AddTaskActivitySubmitTaskButton);
 
         submitTaskButton.setOnClickListener(view -> {
-
             Log.v("", "Very Verbose");
             Log.d("", "Debug");
             Log.i("", "Information");
