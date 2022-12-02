@@ -1,5 +1,8 @@
 # my-tasks-app
 
+
+![Home Page](images/lab-26/lab26-homepage.png)
+
 ## My Task Version 1
 
 - Added a home page that has a heading at the top of the page, an image to mock the “my tasks” view, and buttons at the bottom of the page to allow going to the “add tasks” and “all tasks” page.
