@@ -18,6 +18,9 @@ public class MainActivity extends AppCompatActivity {
         setupAllTasksButton();
     }
 
+
+//Button to go to to the Add Task activity
+
     public void setupAddTaskButton(){
         Button addToTaskButton = MainActivity.this.findViewById(R.id.MainActivityAddTaskButton);
         addToTaskButton.setOnClickListener(view -> {
