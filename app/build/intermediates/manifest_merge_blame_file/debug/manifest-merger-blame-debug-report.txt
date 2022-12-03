@@ -11,7 +11,7 @@
 9-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml
 10
 11    <application
-11-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:5:5-35:19
+11-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:5:5-48:19
 12        android:allowBackup="true"
 12-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:6:9-35
 13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -34,63 +34,89 @@
 23        android:theme="@style/Theme.MyTaskManager" >
 23-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:13:9-51
 24        <activity
-24-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:15:9-17:40
-25            android:name="com.maximo.mytaskmanager.AllTasks"
-25-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:16:13-37
-26            android:exported="false" />
+24-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:15:9-21:20
+25            android:name="com.maximo.mytaskmanager.SettingsPage"
+25-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:16:13-41
+26            android:exported="false" >
 26-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:17:13-37
-27        <activity
-27-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:9-20:40
-28            android:name="com.maximo.mytaskmanager.AddTask"
-28-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:19:13-36
-29            android:exported="false" />
-29-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:13-37
-30        <activity
-30-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:21:9-34:20
-31            android:name="com.maximo.mytaskmanager.MainActivity"
-31-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:22:13-41
-32            android:exported="true" >
-32-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-36
-33            <intent-filter>
-33-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:13-29:29
-34                <action android:name="android.intent.action.MAIN" />
-34-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:26:17-69
-34-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:26:25-66
-35
-36                <category android:name="android.intent.category.LAUNCHER" />
-36-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:28:17-77
-36-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:28:27-74
-37            </intent-filter>
-38
-39            <meta-data
-39-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:31:13-33:36
-40                android:name="android.app.lib_name"
-40-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:32:17-52
-41                android:value="" />
-41-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:33:17-33
-42        </activity>
-43
-44        <provider
-44-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-45            android:name="androidx.startup.InitializationProvider"
-45-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-46            android:authorities="com.maximo.mytaskmanager.androidx-startup"
-46-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-47            android:exported="false" >
-47-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-48            <meta-data
-48-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-49                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-49-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-50                android:value="androidx.startup" />
-50-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-51            <meta-data
-51-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-52                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-52-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-53                android:value="androidx.startup" />
-53-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-54        </provider>
-55    </application>
-56
-57</manifest>
+27            <meta-data
+27-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:13-20:36
+28                android:name="android.app.lib_name"
+28-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:19:17-52
+29                android:value="" />
+29-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:17-33
+30        </activity>
+31        <activity
+31-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:22:9-28:20
+32            android:name="com.maximo.mytaskmanager.TaskDetailPage"
+32-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-43
+33            android:exported="false" >
+33-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:13-37
+34            <meta-data
+34-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:13-20:36
+35                android:name="android.app.lib_name"
+35-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:19:17-52
+36                android:value="" />
+36-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:17-33
+37        </activity>
+38        <activity
+38-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:29:9-31:40
+39            android:name="com.maximo.mytaskmanager.AllTasks"
+39-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:30:13-37
+40            android:exported="false" />
+40-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:31:13-37
+41        <activity
+41-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:32:9-34:40
+42            android:name="com.maximo.mytaskmanager.AddTask"
+42-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:33:13-36
+43            android:exported="false" />
+43-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:34:13-37
+44        <activity
+44-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:35:9-47:20
+45            android:name="com.maximo.mytaskmanager.MainActivity"
+45-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:36:13-41
+46            android:exported="true" >
+46-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:37:13-36
+47            <intent-filter>
+47-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:38:13-42:29
+48                <action android:name="android.intent.action.MAIN" />
+48-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:39:17-69
+48-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:39:25-66
+49
+50                <category android:name="android.intent.category.LAUNCHER" />
+50-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:41:17-77
+50-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:41:27-74
+51            </intent-filter>
+52
+53            <meta-data
+53-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:13-20:36
+54                android:name="android.app.lib_name"
+54-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:19:17-52
+55                android:value="" />
+55-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:17-33
+56        </activity>
+57
+58        <provider
+58-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+59            android:name="androidx.startup.InitializationProvider"
+59-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+60            android:authorities="com.maximo.mytaskmanager.androidx-startup"
+60-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+61            android:exported="false" >
+61-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+62            <meta-data
+62-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+63                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+63-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+64                android:value="androidx.startup" />
+64-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+65            <meta-data
+65-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+66                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+66-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+67                android:value="androidx.startup" />
+67-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+68        </provider>
+69    </application>
+70
+71</manifest>
