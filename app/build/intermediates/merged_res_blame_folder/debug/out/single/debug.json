@@ -4,12 +4,12 @@
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-31:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
-    },
-    {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/xml_backup_rules.xml.flat",
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-31:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-31:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/layout_activity_task_detail_page.xml.flat",
@@ -18,10 +18,6 @@
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/mipmap-mdpi_ic_launcher.webp.flat",
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-31:/mipmap-mdpi/ic_launcher.webp"
-    },
-    {
-        "merged": "com.maximo.mytaskmanager.app-merged_res-29:/layout_activity_main.xml.flat",
-        "source": "com.maximo.mytaskmanager.app-main-31:/layout/activity_main.xml"
     },
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/layout_activity_main.xml.flat",
@@ -82,6 +78,10 @@
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/layout_activity_add_task.xml.flat",
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-31:/layout/activity_add_task.xml"
+    },
+    {
+        "merged": "com.maximo.mytaskmanager.app-merged_res-29:/layout_activity_settings_page.xml.flat",
+        "source": "com.maximo.mytaskmanager.app-main-31:/layout/activity_settings_page.xml"
     },
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-29:/mipmap-xhdpi_ic_launcher_round.webp.flat",

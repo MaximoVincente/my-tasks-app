@@ -4,16 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/linearLayout"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:verticalScrollbarPosition="defaultPosition">
 
     <TextView
         android:id="@+id/ActivityTaskDetailPageTextViewTaskTitle"
-        android:layout_width="339dp"
-        android:layout_height="47dp"
-        android:layout_marginTop="52dp"
+        android:layout_width="392dp"
+        android:layout_height="43dp"
+        android:layout_marginTop="16dp"
         android:text="Task Title"
         android:textAlignment="center"
-        android:textSize="34sp"
+        android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -23,9 +24,9 @@
         android:layout_width="322dp"
         android:layout_height="579dp"
         android:layout_marginStart="41dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="56dp"
         android:layout_marginEnd="41dp"
-        android:text="Task Description"
+        android:text="Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Fames ac turpis egestas maecenas pharetra convallis. Est placerat in egestas erat imperdiet. Iaculis at erat pellentesque adipiscing commodo. In est ante in nibh. Id eu nisl nunc mi ipsum faucibus vitae. In arcu cursus euismod quis viverra nibh cras pulvinar. Pellentesque id nibh tortor id aliquet lectus. Ut tortor pretium viverra suspendisse potenti nullam ac tortor. Pretium viverra suspendisse potenti nullam. Dolor purus non enim praesent. Habitasse platea dictumst vestibulum rhoncus est pellentesque elit. Sit amet est placerat in egestas erat imperdiet sed. Feugiat scelerisque varius morbi enim nunc faucibus. Lectus magna fringilla urna porttitor rhoncus dolor. Velit aliquet sagittis id consectetur purus ut faucibus. Aliquam id diam maecenas ultricies mi."
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"

@@ -26,6 +26,7 @@
         android:layout_marginStart="287dp"
         android:layout_marginTop="26dp"
         android:layout_marginEnd="36dp"
+        android:soundEffectsEnabled="true"
         android:text="Save"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
