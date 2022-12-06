@@ -16,6 +16,7 @@
         android:hint="Task Title"
         android:inputType="textPersonName"
         android:textColor="#ACECF4"
+        android:textColorHighlight="#ACECF4"
         android:textColorHint="#ACECF4"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityTextViewAddTaskTitle" />
@@ -56,6 +57,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginTop="26dp"
         android:text="Add Task"
+        android:backgroundTint="@color/cardview_dark_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityEditTextTaskDescription" />
 

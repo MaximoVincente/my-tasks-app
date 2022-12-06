@@ -5,7 +5,7 @@
     android:id="@+id/ActivitySettingsPageETUsername"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="@color/material_dynamic_primary90">
+    android:background="@drawable/background_2">
 
     <EditText
         android:id="@+id/ActivitySettingsPageEditTextUsername"
@@ -15,6 +15,8 @@
         android:ems="10"
         android:hint="Username"
         android:inputType="textPersonName"
+        android:textColor="#ACECF4"
+        android:textColorHint="#ACECF4"
         android:textSize="20sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,6 +31,7 @@
         android:layout_marginEnd="36dp"
         android:soundEffectsEnabled="true"
         android:text="Save"
+        android:backgroundTint="@color/cardview_dark_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ActivitySettingsPageEditTextUsername" />

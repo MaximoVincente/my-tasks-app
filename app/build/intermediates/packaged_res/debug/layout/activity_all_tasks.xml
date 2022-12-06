@@ -5,7 +5,7 @@
     android:id="@+id/linearLayout2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/material_dynamic_primary90">
+    android:background="@drawable/background_2">
 
     <TextView
         android:id="@+id/AllTasksActivityTextViewAllTasksTitle"
@@ -13,7 +13,7 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="All Tasks"
-        android:textColor="#121111"
+        android:textColor="#ACECF4"
         android:textSize="34sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.498"
@@ -39,6 +39,7 @@
         android:layout_marginStart="37dp"
         android:layout_marginTop="105dp"
         android:text="Go Back"
+        android:backgroundTint="@color/cardview_dark_background"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView3" />
 </androidx.constraintlayout.widget.ConstraintLayout>

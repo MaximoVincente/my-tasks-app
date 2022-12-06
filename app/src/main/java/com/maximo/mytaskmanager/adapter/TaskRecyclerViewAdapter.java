@@ -42,7 +42,7 @@ public class TaskRecyclerViewAdapter extends RecyclerView.Adapter<TaskRecyclerVi
         String taskTitle = tasks.get(position).getTaskTitle();
         String taskDescription = tasks.get(position).getTaskDescription();
         String taskState = tasks.get(position).getState().toString();
-        taskFragmentTextViewTaskTitle.setText(position + ". " + taskTitle);
+        taskFragmentTextViewTaskTitle.setText(taskTitle);
         taskFragmentTextViewTaskDescription.setText(taskDescription);
         taskFragmentTextViewTaskState.setText(taskState);
         View taskItemView = holder.itemView;
