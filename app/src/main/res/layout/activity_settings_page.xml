@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/ActivitySettingsPageETUsername"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:backgroundTint="@color/material_dynamic_primary90">
 
     <EditText
         android:id="@+id/ActivitySettingsPageEditTextUsername"
