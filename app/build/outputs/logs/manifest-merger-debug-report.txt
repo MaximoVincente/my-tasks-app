@@ -99,42 +99,42 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/maxi
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:13:9-51
 	android:dataExtractionRules
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:7:9-65
-activity#com.maximo.mytaskmanager.SettingsPage
+activity#com.maximo.mytaskmanager.activities.SettingsPage
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:15:9-21:20
 	android:exported
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:17:13-37
 	android:name
-		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:16:13-41
+		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:16:13-52
 meta-data#android.app.lib_name
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:13-20:36
 	android:value
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:17-33
 	android:name
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:19:17-52
-activity#com.maximo.mytaskmanager.TaskDetailPage
+activity#com.maximo.mytaskmanager.activities.TaskDetailPage
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:22:9-28:20
 	android:exported
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:13-37
 	android:name
-		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-43
-activity#com.maximo.mytaskmanager.AllTasks
+		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-54
+activity#com.maximo.mytaskmanager.activities.AllTasks
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:30:13-37
-activity#com.maximo.mytaskmanager.AddTask
+		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:30:13-48
+activity#com.maximo.mytaskmanager.activities.AddTask
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:33:13-36
-activity#com.maximo.mytaskmanager.MainActivity
+		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:33:13-47
+activity#com.maximo.mytaskmanager.activities.MainActivity
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:35:9-47:20
 	android:exported
 		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:37:13-36
 	android:name
-		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:36:13-41
+		ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:36:13-52
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from /Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:38:13-42:29
 action#android.intent.action.MAIN
