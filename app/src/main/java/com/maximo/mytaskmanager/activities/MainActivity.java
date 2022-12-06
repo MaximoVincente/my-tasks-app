@@ -36,14 +36,12 @@ public class MainActivity extends AppCompatActivity {
         setupAddTaskButton();
         setupAllTasksButton();
         setupSettingsPageImageButton();
-
     }
 
     @Override
     protected void onResume() {
         super.onResume();
         setupUsernameDisplay();
-//        setupTaskTextViewLinks();
         setupTasksRecyclerView();
     }
 
