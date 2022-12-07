@@ -19,6 +19,7 @@
         android:label="@string/app_name"
         android:roundIcon="@drawable/background_2"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/Theme.MyTaskManager" >
         <activity
             android:name="com.maximo.mytaskmanager.activities.SettingsPage"
