@@ -5,7 +5,8 @@ import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ScrollView;
+import android.widget.ArrayAdapter;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -38,18 +39,23 @@ public class TaskRecyclerViewAdapter extends RecyclerView.Adapter<TaskRecyclerVi
     public void onBindViewHolder(@NonNull TaskViewHolder holder, int position) {
         TextView taskFragmentTextViewTaskTitle = holder.itemView.findViewById(R.id.FragmentTVTaskTitle);
         TextView taskFragmentTextViewTaskDescription = holder.itemView.findViewById(R.id.FragmentTVTaskDescription);
-        TextView taskFragmentTextViewTaskState = holder.itemView.findViewById(R.id.FragmentTVTaskState);
+        Spinner taskFragmentTextViewTaskState = holder.itemView.findViewById(R.id.FragmentSpinnerState);
         String taskTitle = tasks.get(position).getTaskTitle();
         String taskDescription = tasks.get(position).getTaskDescription();
         String taskState = tasks.get(position).getState().toString();
         taskFragmentTextViewTaskTitle.setText(taskTitle);
         taskFragmentTextViewTaskDescription.setText(taskDescription);
-        taskFragmentTextViewTaskState.setText(taskState);
+        taskFragmentTextViewTaskState.setAdapter(new ArrayAdapter<>(
+                taskFragmentTextViewTaskState.getContext(),
+                android.R.layout.simple_spinner_item,
+                Task.TaskStateEnum.values()
+        ));
         View taskItemView = holder.itemView;
         taskItemView.setOnClickListener(view -> {
             Intent goToTaskDetailIntent = new Intent(callingActivity, TaskDetailPage.class);
             goToTaskDetailIntent.putExtra(MainActivity.TASK_TITLE_TAG, taskTitle);
             goToTaskDetailIntent.putExtra(MainActivity.TASK_TITLE_DESCRIPTION, taskDescription);
+            goToTaskDetailIntent.putExtra(MainActivity.TASK_TITLE_STATE, taskState);
             callingActivity.startActivity(goToTaskDetailIntent);
         });
     }

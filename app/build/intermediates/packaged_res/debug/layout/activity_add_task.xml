@@ -13,6 +13,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginTop="37dp"
         android:ems="10"
+        android:fontFamily="@font/rosario_bold"
         android:hint="Task Title"
         android:inputType="textPersonName"
         android:textColor="#ACECF4"
@@ -26,6 +27,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="128dp"
+        android:fontFamily="@font/rosario_bold"
         android:text="Add Task "
         android:textAlignment="center"
         android:textColor="#ACECF4"
@@ -43,6 +45,7 @@
         android:layout_marginStart="26dp"
         android:layout_marginTop="28dp"
         android:ems="10"
+        android:fontFamily="@font/rosario_bold"
         android:hint="Task Description"
         android:inputType="textPersonName"
         android:textColor="#ACECF4"
@@ -54,12 +57,13 @@
         android:id="@+id/AddTaskActivitySubmitTaskButton"
         android:layout_width="129dp"
         android:layout_height="48dp"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="26dp"
-        android:text="Add Task"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="112dp"
         android:backgroundTint="@color/cardview_dark_background"
+        android:fontFamily="@font/rosario_bold"
+        android:text="Add Task"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityEditTextTaskDescription" />
+        app:layout_constraintTop_toBottomOf="@+id/AddTaskActivitySpinnerState" />
 
     <TextView
         android:id="@+id/AddTaskActivityTextViewTotalTasks"
@@ -83,5 +87,23 @@
         android:textSize="14sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityTextViewAddTaskTitle" />
+
+    <Spinner
+        android:id="@+id/AddTaskActivitySpinnerState"
+        android:layout_width="212dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="27dp"
+        android:layout_marginEnd="173dp"
+        android:animateLayoutChanges="false"
+        android:background="@color/material_dynamic_neutral30"
+        android:backgroundTintMode="add"
+        android:dropDownSelector="@color/material_dynamic_neutral30"
+        android:hapticFeedbackEnabled="true"
+        android:popupBackground="@color/material_dynamic_neutral30"
+        android:splitMotionEvents="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityEditTextTaskDescription" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

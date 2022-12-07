@@ -4,6 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.maximo.mytaskmanager.R;
@@ -28,17 +29,16 @@ public class TaskDetailPage extends AppCompatActivity {
             taskState = callingIntent.getStringExtra(MainActivity.TASK_TITLE_STATE);
         }
         TextView taskDetailTitleView = findViewById(R.id.ActivityTaskDetailPageTextViewTaskTitle);
-        TextView taskDetailDesriptionView = findViewById(R.id.ActivityTaskDetailTextViewTaskDescription);
-        TextView taskDetailState = findViewById(R.id.ActivityTaskDetailTextViewTaskState);
+        TextView taskDetailDescriptionView = findViewById(R.id.ActivityTaskDetailTextViewTaskDescription);
+        Spinner taskDetailState = findViewById(R.id.ActivityTaskDetailSpinnerTaskState);
         if(taskTitle != null) {
             taskDetailTitleView.setText(taskTitle);
-            taskDetailDesriptionView.setText(taskDescription);
-            taskDetailState.setText(taskState);
+            taskDetailDescriptionView.setText(taskDescription);
+//            taskDetailState.setText(taskState);
         }
         else {
             taskDetailTitleView.setText("No Tasks");
-            taskDetailDesriptionView.setText("No Description");
-            taskDetailState.setText("No State");
+            taskDetailDescriptionView.setText("No Description");
         }
     }
 
