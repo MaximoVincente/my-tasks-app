@@ -4,10 +4,12 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.maximo.mytaskmanager.R;
+import com.maximo.mytaskmanager.models.Task;
 
 public class TaskDetailPage extends AppCompatActivity {
 
@@ -34,7 +36,11 @@ public class TaskDetailPage extends AppCompatActivity {
         if(taskTitle != null) {
             taskDetailTitleView.setText(taskTitle);
             taskDetailDescriptionView.setText(taskDescription);
-//            taskDetailState.setText(taskState);
+            taskDetailState.setAdapter(new ArrayAdapter<>(
+                    taskDetailState.getContext(),
+                    android.R.layout.simple_spinner_item,
+                    Task.TaskStateEnum.values()
+            ));
         }
         else {
             taskDetailTitleView.setText("No Tasks");
