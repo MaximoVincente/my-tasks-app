@@ -12,13 +12,14 @@
         android:id="@+id/ActivityTaskDetailPageTextViewTaskTitle"
         android:layout_width="392dp"
         android:layout_height="43dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginTop="88dp"
         android:fontFamily="@font/rosario_bold"
         android:text="Task Title"
         android:textAlignment="center"
         android:textColor="#ACECF4"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -27,7 +28,7 @@
         android:layout_width="322dp"
         android:layout_height="579dp"
         android:layout_marginStart="41dp"
-        android:layout_marginTop="104dp"
+        android:layout_marginTop="36dp"
         android:layout_marginEnd="41dp"
         android:fontFamily="@font/rosario_bold"
         android:text="Task Description"
@@ -42,12 +43,12 @@
         android:id="@+id/ActivityTaskDetailSpinnerTaskState"
         android:layout_width="134dp"
         android:layout_height="47dp"
-        android:layout_marginTop="18dp"
+        android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
         android:background="@color/material_dynamic_neutral30"
         android:popupBackground="@color/material_dynamic_neutral30"
         android:textAlignment="center"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ActivityTaskDetailPageTextViewTaskTitle" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
