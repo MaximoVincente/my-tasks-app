@@ -19,4 +19,12 @@
 - The Main Activity is now dynamic, and the user can scroll through all its tasks
 - Main acitvity also displays the description, and the state of the task
 - UI/UX changes 
-![Screenshot 2022-12-06 at 1 16 16 AM](https://user-images.githubusercontent.com/103771906/205836352-630f4760-f9e3-486f-a57a-d51730d493d0.png)
+
+## My Task Version 1.3
+
+- The app can add a Task and save the data in a database using Room.
+- UI/UX Changes
+- The Main Activity displays the saved Tasks, as well as the Task Detail Activity Page
+
+
+![Screenshot 2022-12-06 at 9 00 01 PM](https://user-images.githubusercontent.com/103771906/206069490-4b2c2ec1-b289-4364-9f0d-14c433059cda.png)
