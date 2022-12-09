@@ -8,8 +8,10 @@ import android.widget.ArrayAdapter;
 import android.widget.Spinner;
 import android.widget.TextView;
 
+import com.amplifyframework.datastore.generated.model.Task;
+import com.amplifyframework.datastore.generated.model.TaskStateEnum;
 import com.maximo.mytaskmanager.R;
-import com.maximo.mytaskmanager.models.Task;
+
 
 public class TaskDetailPage extends AppCompatActivity {
 
@@ -39,7 +41,7 @@ public class TaskDetailPage extends AppCompatActivity {
             taskDetailState.setAdapter(new ArrayAdapter<>(
                     taskDetailState.getContext(),
                     android.R.layout.simple_spinner_item,
-                    Task.TaskStateEnum.values()
+                    TaskStateEnum.values()
             ));
         }
         else {
