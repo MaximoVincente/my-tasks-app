@@ -57,6 +57,8 @@ mipmap background_background
 mipmap background_round
 mipmap ic_launcher
 mipmap ic_launcher_round
+raw amplifyconfiguration
+raw awsconfiguration
 string app_name
 string hello_blank_fragment
 style Theme.MyTaskManager

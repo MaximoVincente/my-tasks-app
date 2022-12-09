@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "mytasksapp",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-12-08T22:59:33.120Z"
+}

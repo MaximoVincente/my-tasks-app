@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-mytasksapp-dev-173348-authRole",
+      "UnauthRoleArn": "arn:aws:iam::114885317445:role/amplify-mytasksapp-dev-173348-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::114885317445:role/amplify-mytasksapp-dev-173348-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-mytasksapp-dev-173348-deployment",
+      "UnauthRoleName": "amplify-mytasksapp-dev-173348-unauthRole",
+      "StackName": "amplify-mytasksapp-dev-173348",
+      "StackId": "arn:aws:cloudformation:us-east-1:114885317445:stack/amplify-mytasksapp-dev-173348/6324a510-7748-11ed-99f9-0e965e160c41",
+      "AmplifyAppId": "d1w0thqwx562b9"
+    },
+    "categories": {
+      "api": {
+        "mytasksapp": {}
+      }
+    }
+  }
+}

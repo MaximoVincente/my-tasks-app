@@ -12,10 +12,11 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.amplifyframework.datastore.generated.model.Task;
+import com.amplifyframework.datastore.generated.model.TaskStateEnum;
 import com.maximo.mytaskmanager.R;
 import com.maximo.mytaskmanager.activities.MainActivity;
 import com.maximo.mytaskmanager.activities.TaskDetailPage;
-import com.maximo.mytaskmanager.models.Task;
 
 import java.util.List;
 
@@ -48,7 +49,7 @@ public class TaskRecyclerViewAdapter extends RecyclerView.Adapter<TaskRecyclerVi
         taskFragmentTextViewTaskState.setAdapter(new ArrayAdapter<>(
                 taskFragmentTextViewTaskState.getContext(),
                 android.R.layout.simple_spinner_item,
-                Task.TaskStateEnum.values()
+                TaskStateEnum.values()
         ));
         View taskItemView = holder.itemView;
         taskItemView.setOnClickListener(view -> {
