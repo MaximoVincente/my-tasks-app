@@ -26,5 +26,12 @@
 - UI/UX Changes
 - The Main Activity displays the saved Tasks, as well as the Task Detail Activity Page
 
+## My Task Version 1.4 
 
-![Screenshot 2022-12-06 at 9 00 01 PM](https://user-images.githubusercontent.com/103771906/206069490-4b2c2ec1-b289-4364-9f0d-14c433059cda.png)
+- Room was removed from the application as local storage
+- AWS Amplify was added as a scalable backend 
+- The task entity was replicated with AWS Amplify schema 
+- The app can add a Task and save the data in a database using AWS DynamoDB
+- The Main Activity displays the saved Tasks, as well as the Task Detail Activity Page
+
+![Screenshot 2022-12-08 at 11 22 02 PM](https://user-images.githubusercontent.com/103771906/206624412-476bad81-0b5d-4ee0-aa1c-cb986ec10787.png)
