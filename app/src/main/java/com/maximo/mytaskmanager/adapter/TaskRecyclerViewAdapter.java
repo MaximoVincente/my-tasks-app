@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
+import com.amplifyframework.datastore.generated.model.Task;
 import com.maximo.mytaskmanager.R;
 import com.maximo.mytaskmanager.activities.MainActivity;
 import com.maximo.mytaskmanager.activities.TaskDetailPage;
