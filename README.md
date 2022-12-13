@@ -34,4 +34,12 @@
 - The app can add a Task and save the data in a database using AWS DynamoDB
 - The Main Activity displays the saved Tasks, as well as the Task Detail Activity Page
 
-![Screenshot 2022-12-08 at 11 22 02 PM](https://user-images.githubusercontent.com/103771906/206624412-476bad81-0b5d-4ee0-aa1c-cb986ec10787.png)
+## My Task Version 1.5
+
+- A team Entity was created to create a one to many relationship between a team and tasks.
+- The User can Add a task and assigned it to a team
+- The User can select a team in the settings page to filter the tasks displayed on the main page of the selected team. 
+
+![Screenshot 2022-12-12 at 8 51 34 PM](https://user-images.githubusercontent.com/103771906/207207009-ca817771-fbbd-4b45-9a2b-77eb50a60ec8.png)
+
+
