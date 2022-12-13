@@ -28,12 +28,26 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="287dp"
-        android:layout_marginTop="26dp"
+        android:layout_marginTop="42dp"
         android:layout_marginEnd="36dp"
         android:backgroundTint="@color/cardview_dark_background"
         android:fontFamily="@font/rosario_bold"
         android:soundEffectsEnabled="true"
         android:text="Save"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SettingsPageActivitySpinnerAddTeam" />
+
+    <Spinner
+        android:id="@+id/SettingsPageActivitySpinnerAddTeam"
+        android:layout_width="321dp"
+        android:layout_height="44dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="44dp"
+        android:background="@color/material_dynamic_neutral30"
+        android:popupBackground="@color/material_dynamic_neutral30"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ActivitySettingsPageEditTextUsername" />

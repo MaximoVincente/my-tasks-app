@@ -1,11 +1,18 @@
 # all models in this schema. Learn more about authorization rules here: https://docs.amplify.aws/cli/graphql/authorization-rules
 
+type Team @model @auth(rules: [{allow: public}]){
+  id: ID!
+  teamName: String!
+  tasks: [Task] @hasMany(indexName: "byTeam", fields: ["id"])
+}
 
 type Task @model @auth(rules: [{allow: public}]){
   id: ID!
   taskTitle: String!
   taskDescription: String!
+  teamId: ID! @index(name: "byTeam", sortKeyFields: ["taskTitle"])
   state: TaskStateEnum
+  team: Team @belongsTo(fields: ["teamId"])
 }
 
 enum TaskStateEnum{
