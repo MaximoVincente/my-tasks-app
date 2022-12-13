@@ -12,6 +12,7 @@
         android:layout_height="87dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="37dp"
+        android:layout_marginEnd="26dp"
         android:ems="10"
         android:fontFamily="@font/rosario_bold"
         android:hint="Task Title"
@@ -19,6 +20,7 @@
         android:textColor="#ACECF4"
         android:textColorHighlight="#ACECF4"
         android:textColorHint="#ACECF4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityTextViewAddTaskTitle" />
 
@@ -44,12 +46,14 @@
         android:layout_height="87dp"
         android:layout_marginStart="26dp"
         android:layout_marginTop="28dp"
+        android:layout_marginEnd="26dp"
         android:ems="10"
         android:fontFamily="@font/rosario_bold"
         android:hint="Task Description"
         android:inputType="textPersonName"
         android:textColor="#ACECF4"
         android:textColorHint="#ACECF4"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityEditTextTaskTitle" />
 
@@ -71,8 +75,10 @@
         android:layout_height="wrap_content"
         android:layout_marginStart="75dp"
         android:layout_marginTop="93dp"
+        android:layout_marginBottom="76dp"
         android:text="Total Tasks: 0"
         android:textColor="#ACECF4"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivitySubmitTaskButton" />
 
@@ -93,15 +99,34 @@
         android:layout_width="212dp"
         android:layout_height="41dp"
         android:layout_marginStart="26dp"
-        android:layout_marginTop="27dp"
+        android:layout_marginTop="30dp"
         android:layout_marginEnd="173dp"
+        android:layout_marginBottom="112dp"
         android:animateLayoutChanges="false"
         android:background="@color/material_dynamic_neutral30"
         android:backgroundTintMode="add"
         android:dropDownSelector="@color/material_dynamic_neutral30"
         android:hapticFeedbackEnabled="true"
         android:popupBackground="@color/material_dynamic_neutral30"
+        android:spinnerMode="dropdown"
         android:splitMotionEvents="false"
+        app:layout_constraintBottom_toTopOf="@+id/AddTaskActivitySubmitTaskButton"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/AddTaskActivitySpinnerAddTeam" />
+
+    <Spinner
+        android:id="@+id/AddTaskActivitySpinnerAddTeam"
+        android:layout_width="360dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="30dp"
+        android:background="@color/material_dynamic_neutral30"
+        android:popupBackground="@color/material_dynamic_neutral30"
+        app:layout_constraintBottom_toTopOf="@+id/AddTaskActivitySpinnerState"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/AddTaskActivityEditTextTaskDescription" />

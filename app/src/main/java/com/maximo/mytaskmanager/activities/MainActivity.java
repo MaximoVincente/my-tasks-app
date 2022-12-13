@@ -1,6 +1,8 @@
 package com.maximo.mytaskmanager.activities;
 
 
+import static com.maximo.mytaskmanager.activities.SettingsPage.TEAM_TAG;
+
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
@@ -30,6 +32,8 @@ public class MainActivity extends AppCompatActivity {
     public static final String TASK_TITLE_TAG = "taskTitle";
     public static final String TASK_TITLE_DESCRIPTION = "taskDescription";
     public static final String TASK_TITLE_STATE = "taskState";
+    public static final String TAG = "main_activity_tag";
+    SharedPreferences preferences;
     TaskRecyclerViewAdapter adapter;
     private List<Task> tasks;
 
@@ -37,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+        preferences = PreferenceManager.getDefaultSharedPreferences(this);
         setupAddTaskButton();
         setupAllTasksButton();
         setupSettingsPageImageButton();
@@ -47,18 +51,20 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onResume() {
         super.onResume();
+        String currentTeam = preferences.getString(TEAM_TAG, "All");
+        tasks.clear();
         Amplify.API.query(
                 ModelQuery.list(Task.class),
                 success -> {
                     Log.i(DATABASE_NAME, "Read tasks successfully");
-                    for (Task databaseSuperPet : success.getData()) {
-                        tasks.add(databaseSuperPet);
+                    for (Task task : success.getData()) {
+                        if (currentTeam.equals("All") || task.getTeam().getTeamName().equals(currentTeam))
+                            tasks.add(task);
                     }
                     runOnUiThread(() -> adapter.notifyDataSetChanged()); // since this runs asynchronously, the adapter may already have rendered, so we have to tell it to update
                 },
-                failure -> Log.e(DATABASE_NAME, "Failed to read Super Pets from database")
+                failure -> Log.e(DATABASE_NAME, "Failed to read Tasks from database")
         );
-
         setupUsernameDisplay();
     }
 
@@ -99,7 +105,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setupUsernameDisplay(){
-        SharedPreferences preferences = PreferenceManager.getDefaultSharedPreferences(this);
+
         String username = preferences.getString(SettingsPage.USERNAME_TAG, "No Username");
         ((TextView)findViewById(R.id.MainActivityTextViewHomeTitle)).setText(username + "'s Tasks");
     }

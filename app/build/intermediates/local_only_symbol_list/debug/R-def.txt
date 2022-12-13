@@ -26,6 +26,7 @@ id ActivityTaskDetailSpinnerTaskState
 id ActivityTaskDetailTextViewTaskDescription
 id AddTaskActivityEditTextTaskDescription
 id AddTaskActivityEditTextTaskTitle
+id AddTaskActivitySpinnerAddTeam
 id AddTaskActivitySpinnerState
 id AddTaskActivitySubmitTaskButton
 id AddTaskActivityTextViewAddTaskTitle
@@ -41,6 +42,7 @@ id MainActivityAllTasksButton
 id MainActivityImageViewSettingsPage
 id MainActivityRecyclerViewTasks
 id MainActivityTextViewHomeTitle
+id SettingsPageActivitySpinnerAddTeam
 id TaskFragment
 id frameLayout
 id imageView3
