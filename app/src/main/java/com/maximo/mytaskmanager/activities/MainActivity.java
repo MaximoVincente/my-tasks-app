@@ -32,7 +32,6 @@ public class MainActivity extends AppCompatActivity {
     public static final String TASK_TITLE_TAG = "taskTitle";
     public static final String TASK_TITLE_DESCRIPTION = "taskDescription";
     public static final String TASK_TITLE_STATE = "taskState";
-    public static final String TAG = "main_activity_tag";
     SharedPreferences preferences;
     TaskRecyclerViewAdapter adapter;
     private List<Task> tasks;
