@@ -72,10 +72,6 @@
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_main.xml.flat",
-        "source": "com.maximo.mytaskmanager.app-main-42:/layout/activity_main.xml"
-    },
-    {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/font_rosario_bold.xml.flat",
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/font/rosario_bold.xml"
     },
@@ -170,6 +166,10 @@
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_fragment_task.xml.flat",
         "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/fragment_task.xml"
+    },
+    {
+        "merged": "com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_signup.xml.flat",
+        "source": "com.maximo.mytaskmanager.app-main-42:/layout/activity_signup.xml"
     },
     {
         "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/raw_awsconfiguration.json.flat",

@@ -27,7 +27,7 @@ public class SignupActivity extends AppCompatActivity {
     }
 
     public void setUpSignUpForm(){
-        findViewById(R.id.SignInActivityButtonSignup).setOnClickListener(v -> {
+        findViewById(R.id.SignupActivityButtonSignup).setOnClickListener(v -> {
             String userEmail = ((EditText) findViewById(R.id.SignupActivityEditTextTextEmailAddress)).getText().toString();
             String userPassword = ((EditText) findViewById(R.id.SignupActivityEditTextPassword)).getText().toString();
             Amplify.Auth.signUp(
