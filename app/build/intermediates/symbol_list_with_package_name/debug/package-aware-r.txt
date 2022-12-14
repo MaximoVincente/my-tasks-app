@@ -2718,6 +2718,8 @@ id FragmentTVTaskTitle
 id META
 id MainActivityAddTaskButton
 id MainActivityAllTasksButton
+id MainActivityButtonLoginButton
+id MainActivityButtonSignupButton
 id MainActivityImageViewSettingsPage
 id MainActivityRecyclerViewTasks
 id MainActivityTextViewHomeTitle
@@ -2728,9 +2730,19 @@ id SHOW_PATH
 id SHOW_PROGRESS
 id SYM
 id SettingsPageActivitySpinnerAddTeam
+id SignInActivityButtonSignup
+id SignInActivityEditTextPassword
+id SignInActivityEditTextTextEmailAddress
+id SignInActivityViewTextSignupTitle
+id SignupActivityButtonSignup
+id SignupActivityEditTextPassword
+id SignupActivityEditTextTextEmailAddress
+id SignupActivityViewTextSignupTitle
 id TOP_END
 id TOP_START
 id TaskFragment
+id VerifySignupActivityButtonConfirmationCodeButton
+id VerifySignupActivityEditTextConfirmationCode
 id accelerate
 id accessibility_action_clickable_span
 id accessibility_custom_action_0
@@ -2987,6 +2999,9 @@ id line3
 id linear
 id linearLayout
 id linearLayout2
+id linearLayout3
+id linearLayout4
+id linearLayout5
 id listMode
 id list_item
 id logs_button
@@ -3142,6 +3157,7 @@ id show_device_info
 id show_env_info
 id show_file_issue
 id show_logs
+id signInActivityViewTextSignupTitle
 id sin
 id skipCollapsed
 id skipped
@@ -3375,7 +3391,10 @@ layout activity_all_tasks
 layout activity_dev_menu
 layout activity_main
 layout activity_settings_page
+layout activity_sign_in
+layout activity_signup
 layout activity_task_detail_page
+layout activity_verification_signup
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog

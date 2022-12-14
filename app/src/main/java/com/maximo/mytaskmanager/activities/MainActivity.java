@@ -12,18 +12,18 @@ import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
-import android.widget.ArrayAdapter;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ImageView;
-import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.amplifyframework.api.graphql.model.ModelQuery;
-import com.amplifyframework.auth.AuthUserAttributeKey;
-import com.amplifyframework.auth.options.AuthSignUpOptions;
+import com.amplifyframework.auth.AuthUser;
 import com.amplifyframework.core.Amplify;
 import com.amplifyframework.datastore.generated.model.Task;
 import com.maximo.mytaskmanager.R;
+import com.maximo.mytaskmanager.activities.auth.SignInActivity;
+import com.maximo.mytaskmanager.activities.auth.SignupActivity;
 import com.maximo.mytaskmanager.adapter.TaskRecyclerViewAdapter;
 
 import java.util.ArrayList;
@@ -37,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
     public static final String TASK_TITLE_STATE = "taskState";
     SharedPreferences preferences;
     TaskRecyclerViewAdapter adapter;
+    public AuthUser authUser = null;
     private List<Task> tasks;
 
     @Override
@@ -45,45 +46,46 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         //AuthO Signup Setup
-        Amplify.Auth.signUp(
-            "mavincen",
-            "password",
-            AuthSignUpOptions.builder()
-            .userAttribute(AuthUserAttributeKey.preferredUsername(), "mavincen")
-            .userAttribute(AuthUserAttributeKey.email(), "maximovincente@gmail.com")
-            .userAttribute(AuthUserAttributeKey.nickname(), "max")
-            .build(),
-            success -> Log.i(TAG, "Signup Successful" + success.toString()),
-            failure -> Log.w(TAG, "Signup Failed with username " + "mavincen" + "with the message: " + failure )
-        );
-
-        //AuthO Verification
-        Amplify.Auth.confirmSignUp(
-                "maximovincente@gmail.com",
-                "123456",
-                success ->  Log.i (TAG, "Verification Successful"),
-                failure -> Log.w(TAG, "Verification Failed ")
-        );
+//        Amplify.Auth.signUp(
+//            "maximovincente@gmail.com",
+//            "passworD!",
+//            AuthSignUpOptions.builder()
+//            .userAttribute(AuthUserAttributeKey.email(), "maximovincente@gmail.com")
+//            .userAttribute(AuthUserAttributeKey.preferredUsername(), "mavincen")
+//            .userAttribute(AuthUserAttributeKey.nickname(), "max")
+//            .build(),
+//            success -> Log.i(TAG, "Signup Successful" + success),
+//            failure -> Log.w(TAG, "Signup Failed with username " + "mavincen" + " with the message: " + failure )
+//        );
+//
+//        //AuthO Verification
+//        Amplify.Auth.confirmSignUp(
+//                "maximovincente@gmail.com",
+//                "347613",
+//                success ->  Log.i (TAG, "Verification Successful"),
+//                failure -> Log.w(TAG, "Verification Failed ")
+//        );
 
         //AuthO Login
-        Amplify.Auth.signIn(
-                "mavincen",
-                "password",
-                success -> {},
-                failure -> {}
-        );
-        //Auth0 Logout
-        Amplify.Auth.signOut(
-                "mavincen",
-                success -> Log.i (TAG, "Logout Successful"),
-                failure -> Log.w (TAG, "Logout Failed")
-        );
+//        Amplify.Auth.signIn(
+//                "maximovincente@gmail.com",
+//                "passworD!",
+//                success ->  Log.i (TAG, "Login Successful"),
+//                failure -> Log.w(TAG, "Login Failed ")
+//        );
+//        //Auth0 Logout
+//        Amplify.Auth.signOut(
+//                "mavincen",
+//                success -> Log.i (TAG, "Logout Successful"),
+//                failure -> Log.w (TAG, "Logout Failed")
+//        );
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         setupAddTaskButton();
         setupAllTasksButton();
         setupSettingsPageImageButton();
         setupTasksRecyclerView();
+        setupSignUpSignIn();
     }
 
     @Override
@@ -116,6 +118,30 @@ public class MainActivity extends AppCompatActivity {
     }
 
 
+    public void setupSignUpSignIn(){
+        Button signIn = MainActivity.this.findViewById(R.id.MainActivityButtonLoginButton);
+        Button signUp = MainActivity.this.findViewById(R.id.MainActivityButtonSignupButton);
+        signIn.setOnClickListener(view -> {
+            Intent goToSignInActivity = new Intent(this, SignInActivity.class);
+            startActivity(goToSignInActivity);
+        });
+
+        signUp.setOnClickListener(view -> {
+            Intent goToSignupActivity = new Intent(this, SignupActivity.class);
+            startActivity(goToSignupActivity);
+        });
+
+        if (authUser == null){
+            signIn.setVisibility(View.VISIBLE);
+            signUp.setVisibility(View.VISIBLE);
+        } else {
+            String username = authUser.getUsername();
+            Log.i(TAG, "Username is: " + username);
+            signIn.setVisibility(View.INVISIBLE);
+            signUp.setVisibility(View.INVISIBLE);
+        }
+    }
+
 //Button to go to to the Add Task activity
 
     public void setupAddTaskButton(){
@@ -143,7 +169,6 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void setupUsernameDisplay(){
-
         String username = preferences.getString(SettingsPage.USERNAME_TAG, "No Username");
         ((TextView)findViewById(R.id.MainActivityTextViewHomeTitle)).setText(username + "'s Tasks");
     }

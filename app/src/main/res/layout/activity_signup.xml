@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2">
+
+    <EditText
+        android:id="@+id/SignupActivityEditTextTextEmailAddress"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:textColor="#ACECF4"
+        android:textColorHint="#ACECF4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="224dp" />
+
+    <EditText
+        android:id="@+id/SignupActivityEditTextPassword"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="68dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ACECF4"
+        android:textColorHint="#ACECF4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignupActivityEditTextTextEmailAddress" />
+
+    <Button
+        android:id="@+id/SignupActivityButtonSignup"
+        android:layout_width="110dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="64dp"
+        android:layout_marginEnd="43dp"
+        android:text="Signup"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignupActivityEditTextPassword" />
+
+    <TextView
+        android:id="@+id/SignupActivityViewTextSignupTitle"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/rosario_bold"
+        android:text="My Task Signup "
+        android:textAlignment="center"
+        android:textColor="#ACECF4"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        tools:layout_editor_absoluteX="44dp"
+        tools:layout_editor_absoluteY="30dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>

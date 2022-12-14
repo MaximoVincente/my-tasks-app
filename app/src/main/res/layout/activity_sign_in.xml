@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout4"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_2">
+
+    <Button
+        android:id="@+id/SignInActivityButtonSignup"
+        android:layout_width="128dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="258dp"
+        android:layout_marginTop="38dp"
+        android:layout_marginEnd="43dp"
+        android:text="Login"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.888"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInActivityEditTextPassword" />
+
+    <EditText
+        android:id="@+id/SignInActivityEditTextPassword"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="41dp"
+        android:ems="10"
+        android:hint="Password"
+        android:inputType="textPassword"
+        android:textColor="#ACECF4"
+        android:textColorHint="#ACECF4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInActivityEditTextTextEmailAddress" />
+
+    <EditText
+        android:id="@+id/SignInActivityEditTextTextEmailAddress"
+        android:layout_width="329dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="102dp"
+        android:ems="10"
+        android:hint="Email "
+        android:inputType="textEmailAddress"
+        android:textColor="#ACECF4"
+        android:textColorHint="#ACECF4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/SignInActivityViewTextSignupTitle" />
+
+    <TextView
+        android:id="@+id/SignInActivityViewTextSignupTitle"
+        android:layout_width="321dp"
+        android:layout_height="61dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginEnd="45dp"
+        android:fontFamily="@font/rosario_bold"
+        android:text="My Task Login "
+        android:textAlignment="center"
+        android:textColor="#ACECF4"
+        android:textSize="40sp"
+        android:textStyle="italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -10,7 +10,7 @@
             "authenticationType": "API_KEY",
             "apiKeyConfig": {
               "apiKeyExpirationDays": 30,
-              "apiKeyExpirationDate": "2023-01-11T22:01:56.111Z",
+              "apiKeyExpirationDate": "2023-01-12T22:16:53.856Z",
               "description": ""
             }
           },
@@ -20,14 +20,16 @@
     }
   },
   "auth": {
-    "mytasksapp46562c8d": {
+    "mytasksapp3d6d555b": {
       "service": "Cognito",
       "providerPlugin": "awscloudformation",
       "dependsOn": [],
       "customAuth": false,
       "frontendAuthConfig": {
         "socialProviders": [],
-        "usernameAttributes": [],
+        "usernameAttributes": [
+          "EMAIL"
+        ],
         "signupAttributes": [
           "EMAIL"
         ],
