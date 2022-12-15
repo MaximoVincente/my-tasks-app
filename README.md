@@ -48,7 +48,8 @@
   - A user is able to login (If the user is authenticated, the user will be ridirected to the main activity)
   - A user is able to logout
   
-![Screenshot 2022-12-14 at 8 15 46 PM](https://user-images.githubusercontent.com/103771906/207749436-c1f7b824-1db4-421f-a482-6dd889f8404d.png)
+![Screenshot 2022-12-14 at 8 20 44 PM](https://user-images.githubusercontent.com/103771906/207750036-662debe9-5c3b-4303-a86e-f0a1e6f00694.png)
+
 
 
 
