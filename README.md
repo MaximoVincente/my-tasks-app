@@ -40,6 +40,16 @@
 - The User can Add a task and assigned it to a team
 - The User can select a team in the settings page to filter the tasks displayed on the main page of the selected team. 
 
-![Screenshot 2022-12-12 at 8 51 34 PM](https://user-images.githubusercontent.com/103771906/207207009-ca817771-fbbd-4b45-9a2b-77eb50a60ec8.png)
+## My Task Version 1.6
+
+- AuthO was added 
+  - A user is Able to Sign up (Then redirected to the verification activity)
+  - The user will verify its account with a code emailed to the user(if verified, the user is redirected to the login page)
+  - A user is able to login (If the user is authenticated, the user will be ridirected to the main activity)
+  - A user is able to logout
+  
+![Screenshot 2022-12-14 at 8 15 46 PM](https://user-images.githubusercontent.com/103771906/207749436-c1f7b824-1db4-421f-a482-6dd889f8404d.png)
+
+
 
 
