@@ -1,182 +1,182 @@
 [
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_signup.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_signup.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxxhdpi_background_background.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxxhdpi/background_background.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_all_tasks.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_all_tasks.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/xml_backup_rules.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/xml/backup_rules.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-anydpi-v26_background.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-anydpi-v26/background.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/drawable_background_foreground.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/drawable/background_foreground.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xhdpi_background_background.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xhdpi/background_background.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-mdpi_background_background.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-mdpi/background_background.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/drawable_background.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/drawable/background.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_add_task.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_add_task.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_sign_in.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_sign_in.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/raw_amplifyconfiguration.json.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/raw/amplifyconfiguration.json"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_signup.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_signup.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/xml/data_extraction_rules.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xhdpi_background_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xhdpi/background_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xhdpi_ic_launcher.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xhdpi/ic_launcher.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-hdpi_background_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-hdpi/background_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-anydpi-v26_background_round.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-anydpi-v26/background_round.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxhdpi/ic_launcher_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_task_detail_page.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_task_detail_page.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-hdpi_ic_launcher.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-hdpi/ic_launcher.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-hdpi_background_background.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-hdpi/background_background.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-mdpi_background_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-mdpi/background_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_add_task.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_add_task.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_main.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_main.xml"
+        "merged": "com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_task_detail_page.xml.flat",
+        "source": "com.maximo.mytaskmanager.app-main-45:/layout/activity_task_detail_page.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/font_rosario_bold.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/font/rosario_bold.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_settings_page.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_settings_page.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxxhdpi_background_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxxhdpi/background_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-hdpi_ic_launcher_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-hdpi/ic_launcher_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xhdpi_background_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xhdpi/background_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/drawable_background_foreground.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/drawable/background_foreground.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-mdpi_ic_launcher.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-mdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxhdpi_background_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxhdpi/background_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxxhdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-mdpi_ic_launcher_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-mdpi/ic_launcher_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxhdpi_background_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxhdpi/background_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xhdpi_background_background.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xhdpi/background_background.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-anydpi-v26_background_round.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-anydpi-v26/background_round.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxhdpi_ic_launcher.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxhdpi/ic_launcher.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_all_tasks.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_all_tasks.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxxhdpi/ic_launcher.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-hdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-hdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_sign_in.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_sign_in.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-anydpi-v26_background.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-anydpi-v26/background.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-hdpi_background_background.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-hdpi/background_background.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-mdpi_background_background.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-mdpi/background_background.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxxhdpi_background_background.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxxhdpi/background_background.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxhdpi_background_background.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxhdpi/background_background.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_settings_page.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_settings_page.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_fragment_task.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/fragment_task.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/xml_backup_rules.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/xml/backup_rules.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-mdpi_background_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-mdpi/background_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxhdpi_background_background.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxhdpi/background_background.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/raw_awsconfiguration.json.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/raw/awsconfiguration.json"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/font_quicksand.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/font/quicksand.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/raw_amplifyconfiguration.json.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/raw/amplifyconfiguration.json"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_task_detail_page.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_task_detail_page.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_main.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xhdpi/ic_launcher_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-hdpi_ic_launcher.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-hdpi/ic_launcher.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-hdpi_background_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-hdpi/background_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-mdpi_ic_launcher_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-mdpi/ic_launcher_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/drawable-hdpi_background_2.jpg.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/drawable-hdpi/background_2.jpg"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/font_quicksand.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/font/quicksand.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/drawable_background.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/drawable/background.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/layout_activity_verification_signup.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/layout/activity_verification_signup.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-mdpi_ic_launcher.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-mdpi/ic_launcher.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_verification_signup.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/activity_verification_signup.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-xxxhdpi_background_round.png.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-xxxhdpi/background_round.png"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/layout_fragment_task.xml.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/layout/fragment_task.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/drawable-hdpi_background_2.jpg.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/drawable-hdpi/background_2.jpg"
     },
     {
-        "merged": "com.maximo.mytaskmanager.app-merged_res-40:/layout_activity_signup.xml.flat",
-        "source": "com.maximo.mytaskmanager.app-main-42:/layout/activity_signup.xml"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/raw_awsconfiguration.json.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-42:/raw/awsconfiguration.json"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-44:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-40:/mipmap-xxxhdpi_ic_launcher_round.png.flat",
-        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-debug-41:/mipmap-xxxhdpi/ic_launcher_round.png"
+        "merged": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-merged_res-43:/font_rosario_bold.xml.flat",
+        "source": "/Users/maximovincentemejia/.gradle/daemon/7.4/com.maximo.mytaskmanager.app-main-45:/font/rosario_bold.xml"
     }
 ]

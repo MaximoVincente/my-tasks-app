@@ -21,11 +21,13 @@ font rosario_bold
 id ActivitySettingsPageButtonSave
 id ActivitySettingsPageETUsername
 id ActivitySettingsPageEditTextUsername
+id ActivityTaskDetailPageImageViewTaskImage
 id ActivityTaskDetailPageTextViewTaskTitle
 id ActivityTaskDetailSpinnerTaskState
 id ActivityTaskDetailTextViewTaskDescription
 id AddTaskActivityEditTextTaskDescription
 id AddTaskActivityEditTextTaskTitle
+id AddTaskActivityImageViewAddImage
 id AddTaskActivitySpinnerAddTeam
 id AddTaskActivitySpinnerState
 id AddTaskActivitySubmitTaskButton
@@ -40,6 +42,7 @@ id FragmentTVTaskTitle
 id MainActivityAddTaskButton
 id MainActivityAllTasksButton
 id MainActivityButtonLoginButton
+id MainActivityButtonLogoutButton
 id MainActivityButtonSignupButton
 id MainActivityImageViewSettingsPage
 id MainActivityRecyclerViewTasks

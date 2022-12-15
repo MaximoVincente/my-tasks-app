@@ -3,14 +3,18 @@ package com.maximo.mytaskmanager.activities;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.media.Image;
 import android.os.Bundle;
 import android.widget.ArrayAdapter;
+import android.widget.ImageView;
 import android.widget.Spinner;
 import android.widget.TextView;
 
 import com.amplifyframework.datastore.generated.model.Task;
 import com.amplifyframework.datastore.generated.model.TaskStateEnum;
 import com.maximo.mytaskmanager.R;
+
+import java.net.URI;
 
 
 public class TaskDetailPage extends AppCompatActivity {
@@ -35,6 +39,7 @@ public class TaskDetailPage extends AppCompatActivity {
         TextView taskDetailTitleView = findViewById(R.id.ActivityTaskDetailPageTextViewTaskTitle);
         TextView taskDetailDescriptionView = findViewById(R.id.ActivityTaskDetailTextViewTaskDescription);
         Spinner taskDetailState = findViewById(R.id.ActivityTaskDetailSpinnerTaskState);
+        ImageView taskImage = (ImageView) findViewById(R.id.ActivityTaskDetailPageImageViewTaskImage);
         if(taskTitle != null) {
             taskDetailTitleView.setText(taskTitle);
             taskDetailDescriptionView.setText(taskDescription);
@@ -43,6 +48,7 @@ public class TaskDetailPage extends AppCompatActivity {
                     android.R.layout.simple_spinner_item,
                     TaskStateEnum.values()
             ));
+
         }
         else {
             taskDetailTitleView.setText("No Tasks");

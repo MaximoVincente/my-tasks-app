@@ -1,6 +1,7 @@
 package com.maximo.mytaskmanager.activities;
 
 
+import static com.amplifyframework.core.Amplify.Auth;
 import static com.maximo.mytaskmanager.activities.SettingsPage.TEAM_TAG;
 
 import androidx.appcompat.app.AppCompatActivity;
@@ -19,6 +20,10 @@ import android.widget.TextView;
 
 import com.amplifyframework.api.graphql.model.ModelQuery;
 import com.amplifyframework.auth.AuthUser;
+import com.amplifyframework.auth.cognito.result.AWSCognitoAuthSignOutResult;
+import com.amplifyframework.auth.cognito.result.GlobalSignOutError;
+import com.amplifyframework.auth.cognito.result.HostedUIError;
+import com.amplifyframework.auth.cognito.result.RevokeTokenError;
 import com.amplifyframework.core.Amplify;
 import com.amplifyframework.datastore.generated.model.Task;
 import com.maximo.mytaskmanager.R;
@@ -44,41 +49,6 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        //AuthO Signup Setup
-//        Amplify.Auth.signUp(
-//            "maximovincente@gmail.com",
-//            "passworD!",
-//            AuthSignUpOptions.builder()
-//            .userAttribute(AuthUserAttributeKey.email(), "maximovincente@gmail.com")
-//            .userAttribute(AuthUserAttributeKey.preferredUsername(), "mavincen")
-//            .userAttribute(AuthUserAttributeKey.nickname(), "max")
-//            .build(),
-//            success -> Log.i(TAG, "Signup Successful" + success),
-//            failure -> Log.w(TAG, "Signup Failed with username " + "mavincen" + " with the message: " + failure )
-//        );
-//
-//        //AuthO Verification
-//        Amplify.Auth.confirmSignUp(
-//                "maximovincente@gmail.com",
-//                "347613",
-//                success ->  Log.i (TAG, "Verification Successful"),
-//                failure -> Log.w(TAG, "Verification Failed ")
-//        );
-
-        //AuthO Login
-//        Amplify.Auth.signIn(
-//                "maximovincente@gmail.com",
-//                "passworD!",
-//                success ->  Log.i (TAG, "Login Successful"),
-//                failure -> Log.w(TAG, "Login Failed ")
-//        );
-//        //Auth0 Logout
-//        Amplify.Auth.signOut(
-//                "mavincen",
-//                success -> Log.i (TAG, "Logout Successful"),
-//                failure -> Log.w (TAG, "Logout Failed")
-//        );
 
         preferences = PreferenceManager.getDefaultSharedPreferences(this);
         setupAddTaskButton();
@@ -131,15 +101,56 @@ public class MainActivity extends AppCompatActivity {
             startActivity(goToSignupActivity);
         });
 
-        if (authUser == null){
-            signIn.setVisibility(View.VISIBLE);
-            signUp.setVisibility(View.VISIBLE);
-        } else {
-            String username = authUser.getUsername();
-            Log.i(TAG, "Username is: " + username);
-            signIn.setVisibility(View.INVISIBLE);
-            signUp.setVisibility(View.INVISIBLE);
-        }
+        Button signOutButton = this.findViewById(R.id.MainActivityButtonLogoutButton);
+        signOutButton.setOnClickListener(view ->
+
+                Auth.signOut( signOutResult -> {
+                    if (signOutResult instanceof AWSCognitoAuthSignOutResult.CompleteSignOut) {
+                        // Sign Out completed fully and without errors.
+                        Log.i("AuthQuickStart", "Signed out successfully");
+                        startActivity(new Intent(this, MainActivity.class));
+                    } else if (signOutResult instanceof AWSCognitoAuthSignOutResult.PartialSignOut) {
+                        // Sign Out completed with some errors. User is signed out of the device.
+                        AWSCognitoAuthSignOutResult.PartialSignOut partialSignOutResult =
+                                (AWSCognitoAuthSignOutResult.PartialSignOut) signOutResult;
+
+                        HostedUIError hostedUIError = partialSignOutResult.getHostedUIError();
+                        if (hostedUIError != null) {
+                            Log.e("AuthQuickStart", "HostedUI Error", hostedUIError.getException());
+                            // Optional: Re-launch hostedUIError.getUrl() in a Custom tab to clear Cognito web session.
+                        }
+
+                        GlobalSignOutError globalSignOutError = partialSignOutResult.getGlobalSignOutError();
+                        if (globalSignOutError != null) {
+                            Log.e("AuthQuickStart", "GlobalSignOut Error", globalSignOutError.getException());
+                            // Optional: Use escape hatch to retry revocation of globalSignOutError.getAccessToken().
+                        }
+
+                        RevokeTokenError revokeTokenError = partialSignOutResult.getRevokeTokenError();
+                        if (revokeTokenError != null) {
+                            Log.e("AuthQuickStart", "RevokeToken Error", revokeTokenError.getException());
+                            // Optional: Use escape hatch to retry revocation of revokeTokenError.getRefreshToken().
+                        }
+                    } else if (signOutResult instanceof AWSCognitoAuthSignOutResult.FailedSignOut) {
+                        AWSCognitoAuthSignOutResult.FailedSignOut failedSignOutResult =
+                                (AWSCognitoAuthSignOutResult.FailedSignOut) signOutResult;
+                        // Sign Out failed with an exception, leaving the user signed in.
+                        Log.e("AuthQuickStart", "Sign out Failed", failedSignOutResult.getException());
+                    }
+                })
+        );
+
+        Amplify.Auth.getCurrentUser(
+                success->{
+                    String username = success.getUsername();
+                    Log.i(TAG, "Username is: " + username);
+                    signIn.setVisibility(View.GONE);
+                    signUp.setVisibility(View.GONE);
+                },
+                failure->{
+                    signOutButton.setVisibility(View.GONE);
+                }
+        );
     }
 
 //Button to go to to the Add Task activity

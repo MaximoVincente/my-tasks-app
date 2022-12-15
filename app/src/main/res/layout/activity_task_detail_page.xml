@@ -12,43 +12,65 @@
         android:id="@+id/ActivityTaskDetailPageTextViewTaskTitle"
         android:layout_width="392dp"
         android:layout_height="43dp"
-        android:layout_marginTop="88dp"
+        android:layout_marginStart="9dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="10dp"
         android:fontFamily="@font/rosario_bold"
         android:text="Task Title"
         android:textAlignment="center"
         android:textColor="#ACECF4"
         android:textSize="28sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.842"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@+id/ActivityTaskDetailSpinnerTaskState" />
 
     <TextView
         android:id="@+id/ActivityTaskDetailTextViewTaskDescription"
-        android:layout_width="322dp"
-        android:layout_height="579dp"
+        android:layout_width="331dp"
+        android:layout_height="429dp"
         android:layout_marginStart="41dp"
-        android:layout_marginTop="36dp"
+        android:layout_marginTop="23dp"
         android:layout_marginEnd="41dp"
+        android:layout_marginBottom="64dp"
         android:fontFamily="@font/rosario_bold"
         android:text="Task Description"
         android:textColor="#ACECF4"
         android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.428"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/ActivityTaskDetailPageTextViewTaskTitle" />
+        app:layout_constraintTop_toBottomOf="@+id/ActivityTaskDetailPageImageViewTaskImage" />
 
     <Spinner
         android:id="@+id/ActivityTaskDetailSpinnerTaskState"
         android:layout_width="134dp"
         android:layout_height="47dp"
+        android:layout_marginStart="261dp"
         android:layout_marginTop="16dp"
         android:layout_marginEnd="16dp"
+        android:layout_marginBottom="2dp"
         android:background="@color/material_dynamic_neutral30"
         android:popupBackground="@color/material_dynamic_neutral30"
         android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/ActivityTaskDetailPageTextViewTaskTitle"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/ActivityTaskDetailPageImageViewTaskImage"
+        android:layout_width="137dp"
+        android:layout_height="129dp"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="137dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/ActivityTaskDetailTextViewTaskDescription"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ActivityTaskDetailPageTextViewTaskTitle"
+        app:srcCompat="@android:drawable/ic_menu_gallery" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
