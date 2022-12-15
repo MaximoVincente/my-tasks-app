@@ -69,6 +69,56 @@
 - Published the application and it is currently under review
 
 
+### Steps to publish the application 
+
+#### Production 
+
+- Task Buddy Release
+  - Start full rollout
+- Countries / regions
+  - region: United States
+
+#### Open testing
+
+- 1 (1.0)
+  - Start full rollout
+- Countries / regions
+  - region: United States
+- Track status
+  - Resume track
+- Testers
+  - Change feedback channel to mavincen@icloud.com
+
+#### Closed testing - Alpha
+
+- First release
+  - Start full rollout
+- Countries / regions
+  - United States
+- Testers
+  - Set testers to be managed by email lists: Test Task Buddy
+  
+#### Main store listing
+
+- English (United States) – en-US
+
+#### App content
+
+- Content Rating
+  - Submit new questionnaire
+- Target audience and content
+  - Target age is 18 and older.
+- Privacy policy
+  - Set Privacy policy URL to https://docs.google.com/document/d/1E8whE24qtxLPOsqM2AlPExQ06-UoIPnFBTpXZP3TzCA/edit?usp=sharing
+- Ads declaration
+  - Update ads declaration
+- Data safety
+  - Complete Data safety questionnaire
+  
+#### Store settings
+
+- App category
+  - (Productivity app)
 
 
 
