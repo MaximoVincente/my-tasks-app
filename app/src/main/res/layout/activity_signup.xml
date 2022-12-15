@@ -53,12 +53,18 @@
         android:id="@+id/SignupActivityViewTextSignupTitle"
         android:layout_width="321dp"
         android:layout_height="61dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginTop="29dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="134dp"
         android:fontFamily="@font/rosario_bold"
         android:text="My Task Signup "
         android:textAlignment="center"
         android:textColor="#ACECF4"
         android:textSize="40sp"
         android:textStyle="italic"
-        tools:layout_editor_absoluteX="44dp"
-        tools:layout_editor_absoluteY="30dp" />
+        app:layout_constraintBottom_toTopOf="@+id/SignupActivityEditTextTextEmailAddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 </androidx.constraintlayout.widget.ConstraintLayout>

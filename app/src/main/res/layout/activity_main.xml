@@ -80,7 +80,7 @@
         android:id="@+id/MainActivityButtonSignupButton"
         android:layout_width="89dp"
         android:layout_height="40dp"
-        android:layout_marginStart="16dp"
+        android:layout_marginStart="24dp"
         android:layout_marginTop="16dp"
         android:layout_marginBottom="16dp"
         android:backgroundTint="@color/material_dynamic_neutral30"
@@ -89,8 +89,7 @@
         android:textSize="12sp"
         app:layout_constraintBottom_toTopOf="@+id/MainActivityTextViewHomeTitle"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/MainActivityButtonLoginButton"
