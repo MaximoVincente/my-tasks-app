@@ -142,9 +142,7 @@ public class AddTask extends AppCompatActivity {
                         result -> {
                             Uri pickedImageFileUri = result.getData().getData();
                             try{
-                                // take in the file URI and turn it into a inputStream
                                 InputStream pickedImageInputStream = getContentResolver().openInputStream(pickedImageFileUri);
-//              String pickedImageFilename = getFileNameFromUri(pickedImageFileUri);
                                 String pickedImageFilename = DocumentFile.fromSingleUri(this, pickedImageFileUri).getName();
                                 Log.i(TAG, "Succeeded in getting input stream from file on phone! Filename is: " + pickedImageFilename);
                                 uploadInputStreamToS3(pickedImageInputStream, pickedImageFilename, pickedImageFileUri);
@@ -163,10 +161,8 @@ public class AddTask extends AppCompatActivity {
                 success -> {
                     Log.i(TAG, "Succeeded in getting file uploaded to S3! Key is: " + success.getKey());
                     s3ImageKey = success.getKey();
-                    // TODO:
-//          saveSuperPet();
                     ImageView taskImage = (ImageView) findViewById(R.id.AddTaskActivityImageViewAddImage);
-                    InputStream pickedImageInputStreamCopy = null; // need to make a copy because InputStreams cannot be reused!
+                    InputStream pickedImageInputStreamCopy = null;
                     try {
                         pickedImageInputStreamCopy = getContentResolver().openInputStream(pickedImageFileUri);
                     } catch (FileNotFoundException fnfe) {
@@ -210,29 +206,6 @@ public class AddTask extends AppCompatActivity {
             Toast.makeText(this, "Task Saved!", Toast.LENGTH_SHORT).show();
         });
     }
-
-//    @SuppressLint("Range")
-//    public String getFileNameFromUri(Uri uri) {
-//        String result = null;
-//        if (uri.getScheme().equals("content")) {
-//            Cursor cursor = getContentResolver().query(uri, null, null, null, null);
-//            try {
-//                if (cursor != null && cursor.moveToFirst()) {
-//                    result = cursor.getString(cursor.getColumnIndex(OpenableColumns.DISPLAY_NAME));
-//                }
-//            } finally {
-//                cursor.close();
-//            }
-//        }
-//        if (result == null) {
-//            result = uri.getPath();
-//            int cut = result.lastIndexOf('/');
-//            if (cut != -1) {
-//                result = result.substring(cut + 1);
-//            }
-//        }
-//        return result;
-//    }
 }
 
 
