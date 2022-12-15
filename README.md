@@ -57,6 +57,17 @@
 
 ![Screenshot 2022-12-14 at 11 41 14 PM](https://user-images.githubusercontent.com/103771906/207774529-c5b624be-c1cc-4eb6-a3ff-34ab619c9765.png)
 
+## My Task App Publishing to Google Play Store
+
+- Ensured that the application followec Google's guidlines
+- Built a signed Android Application Bundle
+  - When I first tried uploading the AAB, I got an error, stating the the application's icon's graphic was not supported. I checked the used icon, and changed it format to support it, rebuilt the AAB and was able to successfully upload the AAB.
+- A privacy policy was created for the application using Termly services. 
+- Link to Privacy Policy: 
+  - [Application Privacy Policy](https://docs.google.com/document/d/1E8whE24qtxLPOsqM2AlPExQ06-UoIPnFBTpXZP3TzCA/edit?usp=sharing)
+- Completed Google Play's questionares about the use of the app
+- Published the application and it is currently under review
+
 
 
 
