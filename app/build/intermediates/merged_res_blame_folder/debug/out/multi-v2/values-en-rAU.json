@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.maximo.mytaskmanager.app-mergeDebugResources-38:/values-en-rAU/values-en-rAU.xml",
+            "outputFile": "com.maximo.mytaskmanager.app-mergeDebugResources-41:/values-en-rAU/values-en-rAU.xml",
             "map": [
                 {
                     "source": "/Users/maximovincentemejia/.gradle/caches/transforms-3/86cc0bfc30c4f5c99c8ae20b266f57c9/transformed/navigation-ui-2.3.4/res/values-en-rAU/values-en-rAU.xml",

@@ -1269,7 +1269,11 @@ attr yearStyle
 attr yearTodayStyle
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
+bool enable_system_alarm_service_default
+bool enable_system_foreground_service_default
+bool enable_system_job_service_default
 bool mtrl_btn_textappearance_all_caps
+bool workmanager_test_configuration
 color abc_background_cache_hint_selector_material_dark
 color abc_background_cache_hint_selector_material_light
 color abc_btn_colored_borderless_text_material
@@ -2589,6 +2593,7 @@ drawable abc_textfield_search_activated_mtrl_alpha
 drawable abc_textfield_search_default_mtrl_alpha
 drawable abc_textfield_search_material
 drawable abc_vector_test
+drawable amplify_storage_transfer_notification_icon
 drawable avd_hide_password
 drawable avd_show_password
 drawable background
@@ -2695,11 +2700,13 @@ id ALT
 id ActivitySettingsPageButtonSave
 id ActivitySettingsPageETUsername
 id ActivitySettingsPageEditTextUsername
+id ActivityTaskDetailPageImageViewTaskImage
 id ActivityTaskDetailPageTextViewTaskTitle
 id ActivityTaskDetailSpinnerTaskState
 id ActivityTaskDetailTextViewTaskDescription
 id AddTaskActivityEditTextTaskDescription
 id AddTaskActivityEditTextTaskTitle
+id AddTaskActivityImageViewAddImage
 id AddTaskActivitySpinnerAddTeam
 id AddTaskActivitySpinnerState
 id AddTaskActivitySubmitTaskButton
@@ -2719,6 +2726,7 @@ id META
 id MainActivityAddTaskButton
 id MainActivityAllTasksButton
 id MainActivityButtonLoginButton
+id MainActivityButtonLogoutButton
 id MainActivityButtonSignupButton
 id MainActivityImageViewSettingsPage
 id MainActivityRecyclerViewTasks
@@ -3525,6 +3533,9 @@ string abc_shareactionprovider_share_with
 string abc_shareactionprovider_share_with_application
 string abc_toolbar_collapse_description
 string all_logs
+string amplify_storage_notification_channel_id
+string amplify_storage_notification_channel_name
+string amplify_storage_notification_title
 string androidx_startup
 string app_name
 string appbar_scrolling_view_behavior

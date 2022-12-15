@@ -1,0 +1,14 @@
+{
+  "resourceName": "s347f1d01c",
+  "policyUUID": "47f1d01c",
+  "bucketName": "mytasksapp3cbb84a5c6634b7aa2ae1eda51a7d677",
+  "storageAccess": "auth",
+  "guestAccess": [],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
