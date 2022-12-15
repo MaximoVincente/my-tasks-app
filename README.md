@@ -50,6 +50,13 @@
   
 ![Screenshot 2022-12-14 at 8 20 44 PM](https://user-images.githubusercontent.com/103771906/207750036-662debe9-5c3b-4303-a86e-f0a1e6f00694.png)
 
+## My Task Version 1.7
+
+- Amplify S3 is the storage for uploaded files to the application
+- The user can add an Image to the task 
+
+![Screenshot 2022-12-14 at 11 41 14 PM](https://user-images.githubusercontent.com/103771906/207774529-c5b624be-c1cc-4eb6-a3ff-34ab619c9765.png)
+
 
 
 
