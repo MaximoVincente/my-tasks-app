@@ -36,16 +36,19 @@ public class TaskDetailPage extends AppCompatActivity {
         String taskDescription= null;
         String taskState = null;
         String taskImageTag = null;
+        String taskLocation = null;
         if(callingIntent != null){
             taskTitle = callingIntent.getStringExtra(MainActivity.TASK_TITLE_TAG);
             taskDescription = callingIntent.getStringExtra(MainActivity.TASK_TITLE_DESCRIPTION);
-            taskImageTag = callingIntent.getStringExtra(MainActivity.TASK_IMAGE).split("/")[1];
+//            taskImageTag = callingIntent.getStringExtra(MainActivity.TASK_IMAGE).split("/")[1];
+            taskLocation = callingIntent.getStringExtra(LocationActivity.TASK_LOCATION);
 
         }
         TextView taskDetailTitleView = findViewById(R.id.ActivityTaskDetailPageTextViewTaskTitle);
         TextView taskDetailDescriptionView = findViewById(R.id.ActivityTaskDetailTextViewTaskDescription);
         Spinner taskDetailState = findViewById(R.id.ActivityTaskDetailSpinnerTaskState);
         ImageView taskImageV = (ImageView) findViewById(R.id.ActivityTaskDetailPageImageViewTaskImage);
+        TextView taskDetailLocation = findViewById(R.id.LocationActivityTextViewLocation);
 
         if(taskTitle != null) {
             taskDetailTitleView.setText(taskTitle);
@@ -55,6 +58,7 @@ public class TaskDetailPage extends AppCompatActivity {
                     android.R.layout.simple_spinner_item,
                     TaskStateEnum.values()
             ));
+            taskDetailLocation.setText(taskLocation);
 //            taskImage = new File(getApplicationContext().getFilesDir() + "/" + taskImageTag);
 //            Amplify.Storage.downloadFile(
 //                    taskImageTag,
