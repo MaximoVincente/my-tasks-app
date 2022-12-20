@@ -2,6 +2,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
 
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
     <application
         android:name=".MyTaskManagerAmplifyApplication"
         android:allowBackup="true"
@@ -13,6 +16,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyTaskManager"
         tools:targetApi="31">
+        <activity
+            android:name=".LocationActivity"
+            android:exported="false"
+            android:label="@string/title_activity_location"
+            android:theme="@style/Theme.MyTaskManager.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".activities.auth.VerifySignupActivity"
             android:exported="false">
