@@ -120,5 +120,8 @@
 - App category
   - (Productivity app)
 
+## My Task App Version 1.8 
 
+- App now has location funcitonalities
+- User can add its location to a task 
 
