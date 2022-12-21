@@ -81,9 +81,7 @@ public class MainActivity extends AppCompatActivity {
                 .addProperty("Time", Long.toString(new Date().getTime()))
                 .addProperty("Tracking Event", "Analytics activity was opened")
                 .build();
-
         Amplify.Analytics.recordEvent(event);
-
     }
 
     @Override
@@ -145,7 +143,6 @@ public class MainActivity extends AppCompatActivity {
         adapter = new TaskRecyclerViewAdapter(tasks, this);
         tasksRecyclerView.setAdapter(adapter);
     }
-
 
     public void setupSignUpSignIn(){
         Button signIn = MainActivity.this.findViewById(R.id.MainActivityButtonLoginButton);
