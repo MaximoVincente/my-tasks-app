@@ -22,7 +22,7 @@ public class MyTaskManagerAmplifyApplication extends Application {
             Amplify.addPlugin(new AWSApiPlugin());
             Amplify.addPlugin(new AWSCognitoAuthPlugin());
             Amplify.addPlugin(new AWSPredictionsPlugin());
-            Amplify.addPlugin(new AWSPinpointAnalyticsPlugin(this));
+            Amplify.addPlugin(new AWSPinpointAnalyticsPlugin());
             Amplify.addPlugin(new AWSS3StoragePlugin());
             Amplify.configure(getApplicationContext());
         } catch (AmplifyException ae) {

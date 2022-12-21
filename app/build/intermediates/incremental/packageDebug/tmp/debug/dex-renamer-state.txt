@@ -1,4 +1,4 @@
-#Tue Dec 20 19:21:35 CST 2022
+#Wed Dec 21 10:51:01 CST 2022
 path.4=14/classes.dex
 path.3=13/classes.dex
 path.2=1/classes.dex
@@ -9,6 +9,7 @@ path.8=classes2.dex
 path.7=8/classes.dex
 path.6=2/classes.dex
 path.5=15/classes.dex
+renamed.10=classes11.dex
 path.0=classes.dex
 base.4=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/14/classes.dex
 base.3=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/13/classes.dex
@@ -18,6 +19,7 @@ base.0=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/bui
 renamed.3=classes4.dex
 renamed.2=classes3.dex
 renamed.1=classes2.dex
+path.10=classes4.dex
 renamed.0=classes.dex
 base.9=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 path.9=classes3.dex
@@ -29,3 +31,4 @@ renamed.5=classes6.dex
 base.6=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/2/classes.dex
 renamed.4=classes5.dex
 base.5=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/build/intermediates/dex/debug/mergeProjectDexDebug/15/classes.dex
+base.10=/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/build/intermediates/dex/debug/mergeExtDexDebug/classes4.dex

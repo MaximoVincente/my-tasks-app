@@ -17,96 +17,96 @@
 12-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:7:5-79
 12-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:7:22-76
 13
-14    <queries>
-14-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:24:5-33:15
-15        <intent>
-15-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:25:9-29:18
-16            <action android:name="android.intent.action.VIEW" />
-16-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:26:13-65
-16-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:26:21-62
-17
-18            <data android:scheme="https" />
-18-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:28:13-44
-18-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:28:19-41
-19        </intent>
-20        <intent>
-20-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:30:9-32:18
-21            <action android:name="android.support.customtabs.action.CustomTabsService" />
-21-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:31:13-90
-21-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:31:21-87
-22        </intent>
-23    </queries> <!-- Permission will be merged into the manifest of the hosting app. -->
-24    <!-- Is required to launch foreground transfer service for targetSdkVersion 28+. -->
-25    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
-25-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:25:5-77
-25-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:25:22-74
-26    <uses-permission android:name="android.permission.INTERNET" />
-26-->[com.amplifyframework:aws-api:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/c98317d4e20561097e1e2407d3ddb528/transformed/aws-api-1.37.7/AndroidManifest.xml:24:5-67
-26-->[com.amplifyframework:aws-api:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/c98317d4e20561097e1e2407d3ddb528/transformed/aws-api-1.37.7/AndroidManifest.xml:24:22-64
-27    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-27-->[com.amazonaws:aws-android-sdk-s3:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1afce43920f75337842d4238006f416b/transformed/aws-android-sdk-s3-2.57.0/AndroidManifest.xml:10:5-79
-27-->[com.amazonaws:aws-android-sdk-s3:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1afce43920f75337842d4238006f416b/transformed/aws-android-sdk-s3-2.57.0/AndroidManifest.xml:10:22-76
-28
-29    <application
-29-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:9:5-94:19
-30        android:name="com.maximo.mytaskmanager.MyTaskManagerAmplifyApplication"
-30-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:10:9-56
-31        android:allowBackup="true"
-31-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:11:9-35
-32        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-32-->[androidx.core:core:1.8.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
-33        android:dataExtractionRules="@xml/data_extraction_rules"
-33-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:12:9-65
-34        android:debuggable="true"
-35        android:extractNativeLibs="false"
-36        android:fullBackupContent="@xml/backup_rules"
-36-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:13:9-54
-37        android:icon="@drawable/ic_launcher_foreground"
-37-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:14:9-56
-38        android:label="@string/app_name"
-38-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:15:9-41
-39        android:roundIcon="@drawable/ic_launcher_foreground"
-39-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:16:9-61
-40        android:supportsRtl="true"
-40-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:17:9-35
-41        android:theme="@style/Theme.MyTaskManager" >
-41-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:9-51
-42        <activity
-42-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:9-26:20
-43            android:name="com.maximo.mytaskmanager.activities.AnalyticsAndTextToSpeech"
-43-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:21:13-64
-44            android:exported="false" >
-44-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:22:13-37
-45            <meta-data
-45-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
-46                android:name="android.app.lib_name"
-46-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:17-52
-47                android:value="" />
-47-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
-48        </activity>
+14    <!-- Permission will be merged into the manifest of the hosting app. -->
+15    <!-- Is required to launch foreground transfer service for targetSdkVersion 28+. -->
+16    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+16-->[com.amplifyframework:aws-storage-s3:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/624437df303896852e3a59d7b5308833/transformed/aws-storage-s3-2.0.0/AndroidManifest.xml:25:5-77
+16-->[com.amplifyframework:aws-storage-s3:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/624437df303896852e3a59d7b5308833/transformed/aws-storage-s3-2.0.0/AndroidManifest.xml:25:22-74
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+17-->[com.amplifyframework:aws-storage-s3:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/624437df303896852e3a59d7b5308833/transformed/aws-storage-s3-2.0.0/AndroidManifest.xml:26:5-79
+17-->[com.amplifyframework:aws-storage-s3:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/624437df303896852e3a59d7b5308833/transformed/aws-storage-s3-2.0.0/AndroidManifest.xml:26:22-76
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[com.amplifyframework:aws-api:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/85bc1b1d100a23eb5f5d0e4e297de5f8/transformed/aws-api-2.0.0/AndroidManifest.xml:24:5-67
+18-->[com.amplifyframework:aws-api:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/85bc1b1d100a23eb5f5d0e4e297de5f8/transformed/aws-api-2.0.0/AndroidManifest.xml:24:22-64
+19
+20    <queries>
+20-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:24:5-33:15
+21        <intent>
+21-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:25:9-29:18
+22            <action android:name="android.intent.action.VIEW" />
+22-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:26:13-65
+22-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:26:21-62
+23
+24            <data android:scheme="https" />
+24-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:28:13-44
+24-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:28:19-41
+25        </intent>
+26        <intent>
+26-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:30:9-32:18
+27            <action android:name="android.support.customtabs.action.CustomTabsService" />
+27-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:31:13-90
+27-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:31:21-87
+28        </intent>
+29    </queries>
+30
+31    <uses-permission android:name="android.permission.REORDER_TASKS" />
+31-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:24:5-72
+31-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:24:22-69
+32    <uses-permission android:name="android.permission.WAKE_LOCK" />
+32-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:5-68
+32-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:25:22-65
+33    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+33-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:5-81
+33-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:27:22-78
+34
+35    <application
+35-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:9:5-94:19
+36        android:name="com.maximo.mytaskmanager.MyTaskManagerAmplifyApplication"
+36-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:10:9-56
+37        android:allowBackup="true"
+37-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:11:9-35
+38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+38-->[androidx.core:core:1.8.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/87a796fe63836d99a2198ac6a6284cb3/transformed/core-1.8.0/AndroidManifest.xml:24:18-86
+39        android:dataExtractionRules="@xml/data_extraction_rules"
+39-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:12:9-65
+40        android:debuggable="true"
+41        android:extractNativeLibs="false"
+42        android:fullBackupContent="@xml/backup_rules"
+42-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:13:9-54
+43        android:icon="@drawable/ic_launcher_foreground"
+43-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:14:9-56
+44        android:label="@string/app_name"
+44-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:15:9-41
+45        android:roundIcon="@drawable/ic_launcher_foreground"
+45-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:16:9-61
+46        android:supportsRtl="true"
+46-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:17:9-35
+47        android:testOnly="true"
+48        android:theme="@style/Theme.MyTaskManager" >
+48-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:18:9-51
 49        <activity
-49-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:27:9-35:20
-50            android:name="com.maximo.mytaskmanager.activities.LocationActivity"
-50-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:28:13-56
-51            android:exported="false"
-51-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:29:13-37
-52            android:label="@string/title_activity_location"
-52-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:30:13-60
-53            android:theme="@style/Theme.MyTaskManager.NoActionBar" >
-53-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:31:13-67
-54            <meta-data
-54-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
-55                android:name="android.app.lib_name"
-55-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:17-52
-56                android:value="" />
-56-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
-57        </activity>
-58        <activity
-58-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:36:9-42:20
-59            android:name="com.maximo.mytaskmanager.activities.auth.VerifySignupActivity"
-59-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:37:13-65
-60            android:exported="false" >
-60-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:38:13-37
+49-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:20:9-26:20
+50            android:name="com.maximo.mytaskmanager.activities.AnalyticsAndTextToSpeech"
+50-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:21:13-64
+51            android:exported="false" >
+51-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:22:13-37
+52            <meta-data
+52-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
+53                android:name="android.app.lib_name"
+53-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:17-52
+54                android:value="" />
+54-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
+55        </activity>
+56        <activity
+56-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:27:9-35:20
+57            android:name="com.maximo.mytaskmanager.activities.LocationActivity"
+57-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:28:13-56
+58            android:exported="false"
+58-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:29:13-37
+59            android:label="@string/title_activity_location"
+59-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:30:13-60
+60            android:theme="@style/Theme.MyTaskManager.NoActionBar" >
+60-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:31:13-67
 61            <meta-data
 61-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
 62                android:name="android.app.lib_name"
@@ -115,11 +115,11 @@
 63-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
 64        </activity>
 65        <activity
-65-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:43:9-49:20
-66            android:name="com.maximo.mytaskmanager.activities.auth.SignInActivity"
-66-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:44:13-59
+65-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:36:9-42:20
+66            android:name="com.maximo.mytaskmanager.activities.auth.VerifySignupActivity"
+66-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:37:13-65
 67            android:exported="false" >
-67-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:45:13-37
+67-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:38:13-37
 68            <meta-data
 68-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
 69                android:name="android.app.lib_name"
@@ -128,11 +128,11 @@
 70-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
 71        </activity>
 72        <activity
-72-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:50:9-56:20
-73            android:name="com.maximo.mytaskmanager.activities.auth.SignupActivity"
-73-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:51:13-59
+72-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:43:9-49:20
+73            android:name="com.maximo.mytaskmanager.activities.auth.SignInActivity"
+73-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:44:13-59
 74            android:exported="false" >
-74-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:52:13-37
+74-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:45:13-37
 75            <meta-data
 75-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
 76                android:name="android.app.lib_name"
@@ -141,11 +141,11 @@
 77-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
 78        </activity>
 79        <activity
-79-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:57:9-63:20
-80            android:name="com.maximo.mytaskmanager.activities.SettingsPage"
-80-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:58:13-52
+79-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:50:9-56:20
+80            android:name="com.maximo.mytaskmanager.activities.auth.SignupActivity"
+80-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:51:13-59
 81            android:exported="false" >
-81-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:59:13-37
+81-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:52:13-37
 82            <meta-data
 82-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
 83                android:name="android.app.lib_name"
@@ -154,11 +154,11 @@
 84-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
 85        </activity>
 86        <activity
-86-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:64:9-70:20
-87            android:name="com.maximo.mytaskmanager.activities.TaskDetailPage"
-87-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:65:13-54
+86-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:57:9-63:20
+87            android:name="com.maximo.mytaskmanager.activities.SettingsPage"
+87-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:58:13-52
 88            android:exported="false" >
-88-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:66:13-37
+88-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:59:13-37
 89            <meta-data
 89-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
 90                android:name="android.app.lib_name"
@@ -167,183 +167,405 @@
 91-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
 92        </activity>
 93        <activity
-93-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:71:9-73:40
-94            android:name="com.maximo.mytaskmanager.activities.AllTasks"
-94-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:72:13-48
-95            android:exported="false" />
-95-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:73:13-37
-96        <activity
-96-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:74:9-76:40
-97            android:name="com.maximo.mytaskmanager.activities.AddTask"
-97-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:75:13-47
-98            android:exported="false" />
-98-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:76:13-37
-99        <activity
-99-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:77:9-89:20
-100            android:name="com.maximo.mytaskmanager.activities.MainActivity"
-100-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:78:13-52
-101            android:exported="true" >
-101-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:79:13-36
-102            <intent-filter>
-102-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:80:13-84:29
-103                <action android:name="android.intent.action.MAIN" />
-103-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:17-69
-103-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:25-66
-104
-105                <category android:name="android.intent.category.LAUNCHER" />
-105-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:83:17-77
-105-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:83:27-74
-106            </intent-filter>
-107
-108            <meta-data
-108-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
-109                android:name="android.app.lib_name"
-109-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:17-52
-110                android:value="" />
-110-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
-111        </activity>
-112
-113        <meta-data
-113-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:91:9-93:57
-114            android:name="preloaded_fonts"
-114-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:92:13-43
-115            android:resource="@array/preloaded_fonts" />
-115-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:93:13-54
-116
-117        <activity
-117-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:36:9-40:75
-118            android:name="com.amplifyframework.auth.cognito.activities.CustomTabsManagerActivity"
-118-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:37:13-98
-119            android:exported="false"
-119-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:38:13-37
-120            android:launchMode="singleTask"
-120-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:39:13-44
-121            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-121-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:40:13-72
-122
-123        <service
-123-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:28:9-30:38
-124            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
-124-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:29:13-93
-125            android:enabled="true" />
-125-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:30:13-35
-126        <service
-126-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:31:9-33:38
-127            android:name="com.amplifyframework.storage.s3.service.AmplifyTransferService"
-127-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:32:13-90
-128            android:enabled="true" />
-128-->[com.amplifyframework:aws-storage-s3:1.37.7] /Users/maximovincentemejia/.gradle/caches/transforms-3/e3aafe9918f56993f649d25c1bf160cc/transformed/aws-storage-s3-1.37.7/AndroidManifest.xml:33:13-35
-129
-130        <activity
-130-->[com.amplifyframework:core:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1a355f8567c5c4cedd946e8a0af1af97/transformed/core-2.0.0/AndroidManifest.xml:27:9-29:54
-131            android:name="com.amplifyframework.devmenu.DeveloperMenuActivity"
-131-->[com.amplifyframework:core:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1a355f8567c5c4cedd946e8a0af1af97/transformed/core-2.0.0/AndroidManifest.xml:28:13-78
-132            android:theme="@style/OverlayActivity" />
-132-->[com.amplifyframework:core:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1a355f8567c5c4cedd946e8a0af1af97/transformed/core-2.0.0/AndroidManifest.xml:29:13-51
-133        <activity
-133-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-134            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-134-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-135            android:exported="false"
-135-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-136-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-137
-138        <meta-data
-138-->[com.google.android.gms:play-services-basement:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/22101baaa08a513511d2fe6a33f29de4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
-139            android:name="com.google.android.gms.version"
-139-->[com.google.android.gms:play-services-basement:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/22101baaa08a513511d2fe6a33f29de4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
-140            android:value="@integer/google_play_services_version" />
-140-->[com.google.android.gms:play-services-basement:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/22101baaa08a513511d2fe6a33f29de4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
-141
-142        <activity
-142-->[com.amazonaws:aws-android-sdk-pinpoint:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1b8f16e69ee9b598e4828b228b533add/transformed/aws-android-sdk-pinpoint-2.57.0/AndroidManifest.xml:13:9-17:72
-143            android:name="com.amazonaws.mobileconnectors.pinpoint.targeting.notification.PinpointNotificationActivity"
-143-->[com.amazonaws:aws-android-sdk-pinpoint:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1b8f16e69ee9b598e4828b228b533add/transformed/aws-android-sdk-pinpoint-2.57.0/AndroidManifest.xml:14:13-119
-144            android:exported="false"
-144-->[com.amazonaws:aws-android-sdk-pinpoint:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1b8f16e69ee9b598e4828b228b533add/transformed/aws-android-sdk-pinpoint-2.57.0/AndroidManifest.xml:15:13-37
-145            android:launchMode="singleInstance"
-145-->[com.amazonaws:aws-android-sdk-pinpoint:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1b8f16e69ee9b598e4828b228b533add/transformed/aws-android-sdk-pinpoint-2.57.0/AndroidManifest.xml:16:13-48
-146            android:theme="@style/PinpointNotificationActivityTheme" />
-146-->[com.amazonaws:aws-android-sdk-pinpoint:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1b8f16e69ee9b598e4828b228b533add/transformed/aws-android-sdk-pinpoint-2.57.0/AndroidManifest.xml:17:13-69
-147
-148        <provider
-148-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-149            android:name="androidx.startup.InitializationProvider"
-149-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-150            android:authorities="com.maximo.mytaskmanager.androidx-startup"
-150-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-151            android:exported="false" >
-151-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-152            <meta-data
-152-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-153                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-153-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-154                android:value="androidx.startup" />
-154-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-155            <meta-data
-155-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-156                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-156-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-157                android:value="androidx.startup" />
-157-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-158        </provider>
-159
-160        <uses-library
-160-->[com.amazonaws:aws-android-sdk-core:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/344248ee721582ceeff0b99932c275b2/transformed/aws-android-sdk-core-2.57.0/AndroidManifest.xml:11:9-13:40
-161            android:name="org.apache.http.legacy"
-161-->[com.amazonaws:aws-android-sdk-core:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/344248ee721582ceeff0b99932c275b2/transformed/aws-android-sdk-core-2.57.0/AndroidManifest.xml:12:13-50
-162            android:required="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
-162-->[com.amazonaws:aws-android-sdk-core:2.57.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/344248ee721582ceeff0b99932c275b2/transformed/aws-android-sdk-core-2.57.0/AndroidManifest.xml:13:13-37
-163        <activity
-163-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:5-271
-164            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
-164-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:15-102
-165            android:enabled="false"
-165-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:103-126
-166            android:exported="false"
-166-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:127-151
-167            android:launchMode="singleInstance"
-167-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:204-239
-168            android:process=":playcore_missing_splits_activity"
-168-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:152-203
-169            android:stateNotNeeded="true" />
-169-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:240-269
-170        <activity
-170-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:5-226
-171            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
-171-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:15-95
-172            android:enabled="false"
-172-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:96-119
-173            android:exported="false"
-173-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:120-144
-174            android:stateNotNeeded="true"
-174-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:145-174
-175            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
-175-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:175-224
-176        <service
-176-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:5-18:15
-177            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
-177-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:14-95
-178            android:enabled="false"
-178-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:96-119
-179            android:exported="true" >
-179-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:120-143
-180            <meta-data
-180-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:17:7-108
-181                android:name="com.google.android.play.core.assetpacks.versionCode"
-181-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:17:18-84
-182                android:value="10901" />
-182-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:17:85-106
-183        </service>
-184        <service
-184-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:5-147
-185            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
-185-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:14-96
-186            android:enabled="false"
-186-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:97-120
-187            android:exported="false" />
-187-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:121-145
-188    </application>
-189
-190</manifest>
+93-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:64:9-70:20
+94            android:name="com.maximo.mytaskmanager.activities.TaskDetailPage"
+94-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:65:13-54
+95            android:exported="false" >
+95-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:66:13-37
+96            <meta-data
+96-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
+97                android:name="android.app.lib_name"
+97-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:17-52
+98                android:value="" />
+98-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
+99        </activity>
+100        <activity
+100-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:71:9-73:40
+101            android:name="com.maximo.mytaskmanager.activities.AllTasks"
+101-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:72:13-48
+102            android:exported="false" />
+102-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:73:13-37
+103        <activity
+103-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:74:9-76:40
+104            android:name="com.maximo.mytaskmanager.activities.AddTask"
+104-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:75:13-47
+105            android:exported="false" />
+105-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:76:13-37
+106        <activity
+106-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:77:9-89:20
+107            android:name="com.maximo.mytaskmanager.activities.MainActivity"
+107-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:78:13-52
+108            android:exported="true" >
+108-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:79:13-36
+109            <intent-filter>
+109-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:80:13-84:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:17-69
+110-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:25-66
+111
+112                <category android:name="android.intent.category.LAUNCHER" />
+112-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:83:17-77
+112-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:83:27-74
+113            </intent-filter>
+114
+115            <meta-data
+115-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:23:13-25:36
+116                android:name="android.app.lib_name"
+116-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:24:17-52
+117                android:value="" />
+117-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:25:17-33
+118        </activity>
+119
+120        <meta-data
+120-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:91:9-93:57
+121            android:name="preloaded_fonts"
+121-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:92:13-43
+122            android:resource="@array/preloaded_fonts" />
+122-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:93:13-54
+123
+124        <activity
+124-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:36:9-40:75
+125            android:name="com.amplifyframework.auth.cognito.activities.CustomTabsManagerActivity"
+125-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:37:13-98
+126            android:exported="false"
+126-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:38:13-37
+127            android:launchMode="singleTask"
+127-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:39:13-44
+128            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+128-->[com.amplifyframework:aws-auth-cognito:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/da6e71465f0681d9bf4570413c543ce3/transformed/aws-auth-cognito-2.0.0/AndroidManifest.xml:40:13-72
+129        <activity
+129-->[com.amplifyframework:core:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1a355f8567c5c4cedd946e8a0af1af97/transformed/core-2.0.0/AndroidManifest.xml:27:9-29:54
+130            android:name="com.amplifyframework.devmenu.DeveloperMenuActivity"
+130-->[com.amplifyframework:core:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1a355f8567c5c4cedd946e8a0af1af97/transformed/core-2.0.0/AndroidManifest.xml:28:13-78
+131            android:theme="@style/OverlayActivity" />
+131-->[com.amplifyframework:core:2.0.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/1a355f8567c5c4cedd946e8a0af1af97/transformed/core-2.0.0/AndroidManifest.xml:29:13-51
+132        <activity
+132-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+133            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+133-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+134            android:exported="false"
+134-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+135            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+135-->[com.google.android.gms:play-services-base:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+136
+137        <meta-data
+137-->[com.google.android.gms:play-services-basement:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/22101baaa08a513511d2fe6a33f29de4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:21:9-23:69
+138            android:name="com.google.android.gms.version"
+138-->[com.google.android.gms:play-services-basement:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/22101baaa08a513511d2fe6a33f29de4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:22:13-58
+139            android:value="@integer/google_play_services_version" />
+139-->[com.google.android.gms:play-services-basement:18.1.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/22101baaa08a513511d2fe6a33f29de4/transformed/play-services-basement-18.1.0/AndroidManifest.xml:23:13-66
+140
+141        <activity
+141-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:27:9-34:20
+142            android:name="androidx.test.core.app.InstrumentationActivityInvoker$BootstrapActivity"
+142-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:28:13-99
+143            android:exported="false"
+143-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:30:13-37
+144            android:theme="@android:style/Theme" >
+144-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:29:13-49
+145            <intent-filter>
+145-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:31:13-33:29
+146                <action android:name="android.intent.action.MAIN" />
+146-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:17-69
+146-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:25-66
+147            </intent-filter>
+148        </activity>
+149        <activity
+149-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:35:9-42:20
+150            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyActivity"
+150-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:36:13-95
+151            android:exported="false"
+151-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:38:13-37
+152            android:theme="@android:style/Theme" >
+152-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:37:13-49
+153            <intent-filter>
+153-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:31:13-33:29
+154                <action android:name="android.intent.action.MAIN" />
+154-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:17-69
+154-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:25-66
+155            </intent-filter>
+156        </activity>
+157        <activity
+157-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:43:9-50:20
+158            android:name="androidx.test.core.app.InstrumentationActivityInvoker$EmptyFloatingActivity"
+158-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:44:13-103
+159            android:exported="false"
+159-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:46:13-37
+160            android:theme="@android:style/Theme.Dialog" >
+160-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:45:13-56
+161            <intent-filter>
+161-->[androidx.test:core:1.3.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/47c4126e7443fc166e293c6b615ea0e4/transformed/core-1.3.0/AndroidManifest.xml:31:13-33:29
+162                <action android:name="android.intent.action.MAIN" />
+162-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:17-69
+162-->/Users/maximovincentemejia/projects/courses/code_401/my-tasks-app/app/src/main/AndroidManifest.xml:81:25-66
+163            </intent-filter>
+164        </activity>
+165
+166        <provider
+166-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+167            android:name="androidx.startup.InitializationProvider"
+167-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+168            android:authorities="com.maximo.mytaskmanager.androidx-startup"
+168-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+169            android:exported="false" >
+169-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+170            <meta-data
+170-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+171                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+171-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+172                android:value="androidx.startup" />
+172-->[androidx.emoji2:emoji2:1.2.0] /Users/maximovincentemejia/.gradle/caches/transforms-3/c03fa7bc00a04a375204b573f0966d9f/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+173            <meta-data
+173-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:36:13-38:52
+174                android:name="androidx.work.WorkManagerInitializer"
+174-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:37:17-68
+175                android:value="androidx.startup" />
+175-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:38:17-49
+176            <meta-data
+176-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+177                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+177-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+178                android:value="androidx.startup" />
+178-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/0ce9e5f033589fdf0ab757f82f7808ec/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+179        </provider>
+180
+181        <service
+181-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:41:9-46:35
+182            android:name="androidx.work.impl.background.systemalarm.SystemAlarmService"
+182-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:42:13-88
+183            android:directBootAware="false"
+183-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:43:13-44
+184            android:enabled="@bool/enable_system_alarm_service_default"
+184-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:44:13-72
+185            android:exported="false" />
+185-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:45:13-37
+186        <service
+186-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:47:9-53:35
+187            android:name="androidx.work.impl.background.systemjob.SystemJobService"
+187-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:48:13-84
+188            android:directBootAware="false"
+188-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:49:13-44
+189            android:enabled="@bool/enable_system_job_service_default"
+189-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:50:13-70
+190            android:exported="true"
+190-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:51:13-36
+191            android:permission="android.permission.BIND_JOB_SERVICE" />
+191-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:52:13-69
+192        <service
+192-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:54:9-59:35
+193            android:name="androidx.work.impl.foreground.SystemForegroundService"
+193-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:55:13-81
+194            android:directBootAware="false"
+194-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:56:13-44
+195            android:enabled="@bool/enable_system_foreground_service_default"
+195-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:57:13-77
+196            android:exported="false" />
+196-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:58:13-37
+197
+198        <receiver
+198-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:61:9-66:35
+199            android:name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver"
+199-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:62:13-88
+200            android:directBootAware="false"
+200-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:63:13-44
+201            android:enabled="true"
+201-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:64:13-35
+202            android:exported="false" />
+202-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:65:13-37
+203        <receiver
+203-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:67:9-77:20
+204            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy"
+204-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:68:13-106
+205            android:directBootAware="false"
+205-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:69:13-44
+206            android:enabled="false"
+206-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:70:13-36
+207            android:exported="false" >
+207-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:71:13-37
+208            <intent-filter>
+208-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:73:13-76:29
+209                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+209-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:17-87
+209-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:74:25-84
+210                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+210-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:17-90
+210-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:75:25-87
+211            </intent-filter>
+212        </receiver>
+213        <receiver
+213-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:78:9-88:20
+214            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy"
+214-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:79:13-104
+215            android:directBootAware="false"
+215-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:80:13-44
+216            android:enabled="false"
+216-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:81:13-36
+217            android:exported="false" >
+217-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:82:13-37
+218            <intent-filter>
+218-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:84:13-87:29
+219                <action android:name="android.intent.action.BATTERY_OKAY" />
+219-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:17-77
+219-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:85:25-74
+220                <action android:name="android.intent.action.BATTERY_LOW" />
+220-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:17-76
+220-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:86:25-73
+221            </intent-filter>
+222        </receiver>
+223        <receiver
+223-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:89:9-99:20
+224            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy"
+224-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:90:13-104
+225            android:directBootAware="false"
+225-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:91:13-44
+226            android:enabled="false"
+226-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:92:13-36
+227            android:exported="false" >
+227-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:93:13-37
+228            <intent-filter>
+228-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:95:13-98:29
+229                <action android:name="android.intent.action.DEVICE_STORAGE_LOW" />
+229-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:17-83
+229-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:96:25-80
+230                <action android:name="android.intent.action.DEVICE_STORAGE_OK" />
+230-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:17-82
+230-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:97:25-79
+231            </intent-filter>
+232        </receiver>
+233        <receiver
+233-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:100:9-109:20
+234            android:name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy"
+234-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:101:13-103
+235            android:directBootAware="false"
+235-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:102:13-44
+236            android:enabled="false"
+236-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:103:13-36
+237            android:exported="false" >
+237-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:104:13-37
+238            <intent-filter>
+238-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:106:13-108:29
+239                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+239-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:17-79
+239-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:107:25-76
+240            </intent-filter>
+241        </receiver>
+242        <receiver
+242-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:110:9-121:20
+243            android:name="androidx.work.impl.background.systemalarm.RescheduleReceiver"
+243-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:111:13-88
+244            android:directBootAware="false"
+244-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:112:13-44
+245            android:enabled="false"
+245-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:113:13-36
+246            android:exported="false" >
+246-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:114:13-37
+247            <intent-filter>
+247-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:116:13-120:29
+248                <action android:name="android.intent.action.BOOT_COMPLETED" />
+248-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:17-79
+248-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:117:25-76
+249                <action android:name="android.intent.action.TIME_SET" />
+249-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:17-73
+249-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:118:25-70
+250                <action android:name="android.intent.action.TIMEZONE_CHANGED" />
+250-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:17-81
+250-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:119:25-78
+251            </intent-filter>
+252        </receiver>
+253        <receiver
+253-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:122:9-131:20
+254            android:name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver"
+254-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:123:13-99
+255            android:directBootAware="false"
+255-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:124:13-44
+256            android:enabled="@bool/enable_system_alarm_service_default"
+256-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:125:13-72
+257            android:exported="false" >
+257-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:126:13-37
+258            <intent-filter>
+258-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:128:13-130:29
+259                <action android:name="androidx.work.impl.background.systemalarm.UpdateProxies" />
+259-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:17-98
+259-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:129:25-95
+260            </intent-filter>
+261        </receiver>
+262        <receiver
+262-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:132:9-142:20
+263            android:name="androidx.work.impl.diagnostics.DiagnosticsReceiver"
+263-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:133:13-78
+264            android:directBootAware="false"
+264-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:134:13-44
+265            android:enabled="true"
+265-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:135:13-35
+266            android:exported="true"
+266-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:136:13-36
+267            android:permission="android.permission.DUMP" >
+267-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:137:13-57
+268            <intent-filter>
+268-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:139:13-141:29
+269                <action android:name="androidx.work.diagnostics.REQUEST_DIAGNOSTICS" />
+269-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:17-88
+269-->[androidx.work:work-runtime:2.7.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/8254f7a56a6d62d947ec6639152035e2/transformed/work-runtime-2.7.1/AndroidManifest.xml:140:25-85
+270            </intent-filter>
+271        </receiver>
+272
+273        <service
+273-->[androidx.room:room-runtime:2.2.5] /Users/maximovincentemejia/.gradle/caches/transforms-3/c747649833e5d992ced321f763124585/transformed/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+274            android:name="androidx.room.MultiInstanceInvalidationService"
+274-->[androidx.room:room-runtime:2.2.5] /Users/maximovincentemejia/.gradle/caches/transforms-3/c747649833e5d992ced321f763124585/transformed/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+275            android:directBootAware="true"
+275-->[androidx.room:room-runtime:2.2.5] /Users/maximovincentemejia/.gradle/caches/transforms-3/c747649833e5d992ced321f763124585/transformed/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+276            android:exported="false" /> <!-- The activities will be merged into the manifest of the hosting app. -->
+276-->[androidx.room:room-runtime:2.2.5] /Users/maximovincentemejia/.gradle/caches/transforms-3/c747649833e5d992ced321f763124585/transformed/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+277        <activity
+277-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:5-271
+278            android:name="com.google.android.play.core.missingsplits.PlayCoreMissingSplitsActivity"
+278-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:15-102
+279            android:enabled="false"
+279-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:103-126
+280            android:exported="false"
+280-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:127-151
+281            android:launchMode="singleInstance"
+281-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:204-239
+282            android:process=":playcore_missing_splits_activity"
+282-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:152-203
+283            android:stateNotNeeded="true" />
+283-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:12:240-269
+284        <activity
+284-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:5-226
+285            android:name="com.google.android.play.core.common.PlayCoreDialogWrapperActivity"
+285-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:15-95
+286            android:enabled="false"
+286-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:96-119
+287            android:exported="false"
+287-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:120-144
+288            android:stateNotNeeded="true"
+288-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:145-174
+289            android:theme="@style/Theme.PlayCore.Transparent" /> <!-- The services will be merged into the manifest of the hosting app. -->
+289-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:13:175-224
+290        <service
+290-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:5-18:15
+291            android:name="com.google.android.play.core.assetpacks.AssetPackExtractionService"
+291-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:14-95
+292            android:enabled="false"
+292-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:96-119
+293            android:exported="true" >
+293-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:16:120-143
+294            <meta-data
+294-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:17:7-108
+295                android:name="com.google.android.play.core.assetpacks.versionCode"
+295-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:17:18-84
+296                android:value="10901" />
+296-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:17:85-106
+297        </service>
+298        <service
+298-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:5-147
+299            android:name="com.google.android.play.core.assetpacks.ExtractionForegroundService"
+299-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:14-96
+300            android:enabled="false"
+300-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:97-120
+301            android:exported="false" />
+301-->[com.google.android.play:core:1.9.1] /Users/maximovincentemejia/.gradle/caches/transforms-3/eb3849da830ce3e4a192818c9131a834/transformed/core-1.9.1/AndroidManifest.xml:19:121-145
+302    </application>
+303
+304</manifest>
