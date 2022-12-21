@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.maximo.mytaskmanager.app-mergeDebugResources-43:/values-mk/values-mk.xml",
+            "outputFile": "com.maximo.mytaskmanager.app-mergeDebugResources-44:/values-mk/values-mk.xml",
             "map": [
                 {
                     "source": "/Users/maximovincentemejia/.gradle/caches/transforms-3/75e11374b42ba83fd12d55e4ccb129ba/transformed/play-services-base-18.1.0/res/values-mk/values.xml",

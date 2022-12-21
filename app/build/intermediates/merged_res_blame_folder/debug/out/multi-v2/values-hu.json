@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.maximo.mytaskmanager.app-mergeDebugResources-43:/values-hu/values-hu.xml",
+            "outputFile": "com.maximo.mytaskmanager.app-mergeDebugResources-44:/values-hu/values-hu.xml",
             "map": [
                 {
                     "source": "/Users/maximovincentemejia/.gradle/caches/transforms-3/d1182ac9010646c74e629f347fb2d565/transformed/browser-1.4.0/res/values-hu/values-hu.xml",

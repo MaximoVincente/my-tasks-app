@@ -77,6 +77,7 @@ id signInActivityViewTextSignupTitle
 id textView
 layout activity_add_task
 layout activity_all_tasks
+layout activity_analytics_and_text_to_speech
 layout activity_location
 layout activity_main
 layout activity_settings_page

@@ -10,6 +10,7 @@ import androidx.recyclerview.widget.RecyclerView;
 
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.media.MediaPlayer;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.util.Log;
@@ -18,6 +19,7 @@ import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.amplifyframework.analytics.AnalyticsEvent;
 import com.amplifyframework.api.graphql.model.ModelQuery;
 import com.amplifyframework.auth.AuthUser;
 import com.amplifyframework.auth.cognito.result.AWSCognitoAuthSignOutResult;
@@ -31,15 +33,25 @@ import com.maximo.mytaskmanager.activities.auth.SignInActivity;
 import com.maximo.mytaskmanager.activities.auth.SignupActivity;
 import com.maximo.mytaskmanager.adapter.TaskRecyclerViewAdapter;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
+import java.util.Date;
 import java.util.List;
 
 public class MainActivity extends AppCompatActivity {
     public static final String DATABASE_NAME = "myTasksAppDatabase";
     public static final String TAG = "mainActivity";
     public static final String TASK_TITLE_TAG = "taskTitle";
-    public static final String TASK_TITLE_DESCRIPTION = "taskDescription";
     public static final String TASK_TITLE_STATE = "taskState";
+    public static final String TASK_TITLE_DESCRIPTION = "taskDescription";
+    private final MediaPlayer mp = new MediaPlayer();
+
+
     public static final String TASK_IMAGE = "taskImage";
     SharedPreferences preferences;
     TaskRecyclerViewAdapter adapter;
@@ -57,6 +69,21 @@ public class MainActivity extends AppCompatActivity {
         setupSettingsPageImageButton();
         setupTasksRecyclerView();
         setupSignUpSignIn();
+
+        Amplify.Predictions.convertTextToSpeech(
+                "I like to eat spaghetti",
+                result -> playAudio(result.getAudioData()),
+                error -> Log.e("MyAmplifyApp", "Conversion failed", error)
+        );
+
+        AnalyticsEvent event = AnalyticsEvent.builder()
+                .name("Opened Analytics Activity")
+                .addProperty("Time", Long.toString(new Date().getTime()))
+                .addProperty("Tracking Event", "Analytics activity was opened")
+                .build();
+
+        Amplify.Analytics.recordEvent(event);
+
     }
 
     @Override
@@ -77,6 +104,37 @@ public class MainActivity extends AppCompatActivity {
                 failure -> Log.e(DATABASE_NAME, "Failed to read Tasks from database")
         );
         setupUsernameDisplay();
+    }
+
+    private void playAudio(InputStream data) {
+        File mp3File = new File(getCacheDir(), "audio.mp3");
+
+        try (OutputStream out = new FileOutputStream(mp3File)) {
+            Log.i(TAG, "Reading input stream");
+            byte[] buffer = new byte[8 * 1_024];
+            int bytesRead;
+            while ((bytesRead = data.read(buffer)) != -1) {
+                out.write(buffer, 0, bytesRead);
+            }
+            mp.reset();
+            mp.setOnPreparedListener(MediaPlayer::start);
+            mp.setDataSource(new FileInputStream(mp3File).getFD());
+            mp.prepareAsync();
+        } catch (IOException error) {
+            Log.e("MyAmplifyApp", "Error writing audio file", error);
+        }
+
+    }
+
+    public void onPause(){
+        super.onPause();
+        AnalyticsEvent event = AnalyticsEvent.builder()
+                .name("Paused Analytics Activity")
+                .addProperty("Time", Long.toString(new Date().getTime()))
+                .addProperty("Tracking Event", "Analytics activity was paused")
+                .build();
+        Amplify.Analytics.recordEvent(event);
+
     }
 
     public void setupTasksRecyclerView() {
