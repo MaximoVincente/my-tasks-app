@@ -125,3 +125,12 @@
 - App now has location funcitonalities
 - User can add its location to a task 
 
+## My Task App Version 1.9 
+
+- Added funcionality to record activity events using analytics
+- Added functionality to read out the task’s description using the Amplify Predictions library.
+
+### Current bugs with Analytics and Predictions
+
+- Although the functionalities of analytics and predications are added to the application, the following bug is interrupting the emulator to run the appliccation successfully
+<img width="1393" alt="Screenshot 2022-12-20 at 7 21 09 PM" src="https://user-images.githubusercontent.com/103771906/208800192-1aae2190-f8d0-421f-b2ff-5c3b066b7101.png">
